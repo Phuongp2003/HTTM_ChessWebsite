@@ -1,0 +1,51 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model account {
+  id       Int     @id
+  uid      Int
+  username String  @db.VarChar(255)
+  password String  @db.VarChar(255)
+  rToken   String? @db.Text
+  user     user    @relation(fields: [uid], references: [uid], map: "account_ibfk_1")
+
+  @@index([uid], map: "uid")
+}
+
+model matches {
+  game_id                         BigInt  @id
+  player_a                        Int?
+  player_b                        Int?
+  current_turn                    String? @db.VarChar(10)
+  fen                             String? @db.Text
+  result                          String? @db.VarChar(255)
+  move_history                    String? @db.LongText
+  white_player                    Int?
+  user_matches_player_aTouser     user?   @relation("matches_player_aTouser", fields: [player_a], references: [uid], onDelete: Restrict, map: "matches_ibfk_1")
+  user_matches_player_bTouser     user?   @relation("matches_player_bTouser", fields: [player_b], references: [uid], onDelete: Restrict, map: "matches_ibfk_2")
+  user_matches_white_playerTouser user?   @relation("matches_white_playerTouser", fields: [white_player], references: [uid], onDelete: Restrict, map: "matches_ibfk_3")
+
+  @@index([player_a], map: "player_a")
+  @@index([player_b], map: "player_b")
+  @@index([white_player], map: "white_player")
+}
+
+model user {
+  uid                                Int       @id
+  firstName                          String    @db.VarChar(255)
+  lastName                           String    @db.VarChar(255)
+  nickname                           String    @db.VarChar(255)
+  avatar                             String    @db.Text
+  elo                                Int       @default(0)
+  trainingStatus                     Int       @default(0)
+  account                            account[]
+  matches_matches_player_aTouser     matches[] @relation("matches_player_aTouser")
+  matches_matches_player_bTouser     matches[] @relation("matches_player_bTouser")
+  matches_matches_white_playerTouser matches[] @relation("matches_white_playerTouser")
+}
