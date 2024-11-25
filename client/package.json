@@ -1,0 +1,39 @@
+{
+  "name": "ptd21-web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.3.0",
+    "@vueuse/integrations": "^11.3.0",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "jwt-decode": "^4.0.0",
+    "marked": "^14.1.2",
+    "ptd21-web": "file:",
+    "sass": "^1.77.8",
+    "tsk-chess": "^0.8.3",
+    "tsk-web": "file:",
+    "universal-cookie": "^7.2.2",
+    "vue": "lastest",
+    "vue-router": "^4.4.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.20",
+    "jsdom": "^24.1.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "vite": "^5.3.1",
+    "vite-plugin-vue-devtools": "^7.3.1",
+    "vitest": "^1.6.0"
+  }
+}

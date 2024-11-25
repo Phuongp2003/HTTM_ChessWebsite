@@ -1,0 +1,5 @@
+tensorflow>=2.0
+numpy
+Pillow
+opencv-python==4.6.0.66
+cairosvg==2.5.2

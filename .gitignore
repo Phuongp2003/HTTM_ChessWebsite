@@ -1,0 +1,11 @@
+*.h5
+*.keras
+
+node_modules
+**/node_modules
+**/myenv
+**/*.h5
+**/*.keras
+**/.env
+**/stockfish
+**/*.pyc

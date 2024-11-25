@@ -1,0 +1,5002 @@
+[
+    {
+        "fen": "rnbqkbnr/ppppp1p1/5p1p/1P6/8/8/PBPPPPPP/RN1QKBNR b KQkq - 1 3",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/pppppp1p/7n/6p1/7P/Nn1PPP2/P1P3P1/R1BQKBNR b KQkq - 1 6",
+        "move": "b3a1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/p1pp2pp/1p3q2/4pp2/P2P1B2/1P6/2P1PPPP/RN1QKBNR w KQkq - 1 5",
+        "move": "d4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pp2p/5p2/2p3p1/N6P/1P6/P1PPPPP1/R1BQKBNR b KQkq - 0 4",
+        "move": "g5g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/pppb1ppp/3p4/4p3/8/3BPPP1/PPPP3P/RNBQK1NR w KQkq - 2 5",
+        "move": "c2c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/3p4/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn2kbnr/p2ppppp/bp3q2/P1p5/3P2P1/2PQ1P2/1P2P2P/RNB1KBNR w KQkq - 3 8",
+        "move": "g4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/8/4P2P/PPPP1PP1/RNBQKBNR w KQkq - 1 3",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkb1r/pbpppp1p/1p3np1/8/8/NP4P1/P1PPPP1P/R1BQKBNR b Kkq - 3 5",
+        "move": "b7h1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1p1ppppp/8/p1p3B1/8/3P1N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3",
+        "move": "h7h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pp1ppppp/n1p5/4N3/1P6/8/P1PPPPPP/RNBQKB1R b KQkq - 1 3",
+        "move": "a6b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/pp1p1ppp/8/q1p1p3/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 4",
+        "move": "f3e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/ppp1ppp1/5n1p/3p4/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 5",
+        "move": "e4e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pp3/5p1p/6p1/2p1P3/3P2Q1/PPP1BPPP/RNB1K1NR b KQkq - 1 6",
+        "move": "h6h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb2/pp1pppp1/n4nr1/2p4p/P2P3B/2N5/RPP1PPPP/3QKBNR b Kq - 2 8",
+        "move": "a6b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp2p1/7p/4pp2/8/1P5P/P1PPPPP1/RNBQKBNR b KQkq - 0 4",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqkbnr/rppppppp/p7/6B1/8/3P4/PPP1PPPP/RN1QKBNR w KQk - 2 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/pp1pqpp1/2p1p2p/8/8/BP4PN/P1PPPP1P/RN1QKB1R w KQkq - 0 7",
+        "move": "a3e7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/7n/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+        "move": "c7c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1pppp1pp/p4p2/8/1P2P1P1/6nP/P1PP1P2/RNBQKBNR b KQkq - 2 6",
+        "move": "g3h1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/1pp1pp1p/n5p1/p2p1b2/P1P4P/7R/1P1PPPP1/RNBQKBN1 b Qkq - 2 6",
+        "move": "f5h3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bq1br1/p1pkpppp/n6n/1p1P4/1PN5/4P2P/P2P1PP1/R1BQKBNR w KQ - 0 8",
+        "move": "c4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1ppp1ppp/p7/4p3/6P1/3P3N/PPP1PP1P/RNBQKB1R b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp1ppppp/2p4n/1B6/8/NP2PP2/P1PP2PP/R1BQK1NR b KQkq - 0 5",
+        "move": "c6b5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/7p/8/5P2/2P5/PP1PP1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/p1pppppp/B4n2/1p6/3P4/4P3/PPP2PPP/RNBQK1NR b KQkq - 0 3",
+        "move": "c8a6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/pppq3p/4p2p/3p1p2/3P3P/4P3/PPP2PP1/RN1QKBNR w KQkq - 1 6",
+        "move": "g2g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/p1p1pppp/n2p3n/1p6/4P1Q1/1P5P/P1PP1PP1/RNB1KBNR w KQkq - 3 5",
+        "move": "f1b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/p2ppp1N/1pp3pb/8/3P4/4P3/PPPK1PPP/RNBQ1B1R w kq - 3 7",
+        "move": "h2h4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq1bnr/1ppp1kpp/8/4pp2/pP6/3QP1P1/PBPP1P1P/RN2KBNR w KQ - 0 8",
+        "move": "d3d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pp1p3p/6pn/2p2pN1/2B5/8/PPPP1PPP/RNBQK1R1 w Qkq - 0 7",
+        "move": "d1e2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pp1p1ppp/4pn2/2p5/4P3/2N2N1P/PPPP1PP1/R1BQKB1R b KQkq - 1 4",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1k1bnr/pp2pp1p/1qpp4/5bp1/PPB1P3/1R3Q2/2PP1PPP/1NB1K1NR w K - 0 8",
+        "move": "f3f5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbn1/pppp1pp1/7r/4p3/4PNp1/5P2/PPPPB2P/RNBQK2R b KQq - 1 6",
+        "move": "e5f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qk1nr/pbppppb1/8/1p5p/1PBPP1pP/8/P1P2PPR/RNBQK1N1 w Qkq - 0 7",
+        "move": "c4b5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk2r/ppppbppp/4p2n/6P1/4P3/7B/PPPP1P1P/RNBQK1NR w KQkq - 1 5",
+        "move": "g5h6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/ppp1p2p/2n1B1p1/3p2p1/Q1P2P2/2N5/PP1PP2P/R1B1K1NR b KQ - 1 8",
+        "move": "c8e6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/p7/8/6P1/2P5/PP1PPP1P/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqkbnr/3ppppp/r7/ppP5/1P6/2P4N/P2BPPPP/RN1QKB1R b KQk - 0 6",
+        "move": "g7g6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1ppppp1/8/1p5p/5P2/3P4/PPP1P1PP/RNBQKBNR w KQkq - 0 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp2p/5p2/6p1/Q7/2P3PN/PP1PPP1P/RNB1KB1R b KQkq - 1 4",
+        "move": "c7c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/8/8/3n1P2/P6N/1PPPP1PP/RNBQKB1R b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbr1/pppnppp1/7p/7n/3p3P/2P1PP1N/PP1PK1PR/RNBQ1B2 w q - 0 8",
+        "move": "c3d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppp2/2p5/6p1/3P3p/P5P1/1PP1PPBP/RNBQK1NR w KQkq - 0 5",
+        "move": "g3g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/p1pp1p1p/b5p1/1p2p3/P3P3/1PN5/2PPKPPP/R1BQ1BNR b kq - 1 7",
+        "move": "b5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppp1p/2p5/6p1/1P5P/5P2/P1PPP1P1/RNBQKBNR b KQkq - 0 3",
+        "move": "g5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1p2p/B2p4/5p2/6p1/4PP2/PPPP2PP/RNBQ1KNR b kq - 1 5",
+        "move": "b8a6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r3kbnr/ppp1pppp/3q1n2/3P4/3P1P2/6PB/PP2P2P/RNBQK1NR b KQkq - 0 6",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1p1pp3/5npp/2p2p2/p3PP2/2NP4/PPP1Q1PP/R1B1KBNR w KQkq - 2 8",
+        "move": "e4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbn1/ppp1p1pr/3p2P1/2n4p/4Pp2/1PN5/PBPP1P1P/R2QKBNR w KQq - 3 8",
+        "move": "g6h7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pp2/3p3p/8/3PQp2/4P3/PPP2PPP/RN2KBNR b KQkq - 1 5",
+        "move": "f4e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/pp1p1ppp/2p4n/4Q3/1P6/B2PP3/P1P2PPP/RN2KBNR b KQq - 0 6",
+        "move": "f8e7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq1bnr/p2ppkpp/2p5/1p3p2/Q6P/2P5/PP1PPPP1/RNB1KBNR w KQ - 2 5",
+        "move": "a4c2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbn1/p1ppp2r/6p1/1p1P1p1p/1P6/B4P1P/P1P1P1P1/RN1QKBNR b KQq - 2 6",
+        "move": "e7e6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/p1pp1ppp/8/1p4q1/4p2P/3P4/PPP1PP2/RNBQKBNR w KQkq - 0 5",
+        "move": "h4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/nppppp2/6pp/p7/1P5P/P1N4N/2PPPPP1/R1BQKB1R w KQkq - 0 6",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/ppp2ppp/4p3/2bp4/2P5/P5P1/1P1PPP1P/RNBQKBNR w KQkq - 0 4",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/1ppppp1p/7b/pB4p1/8/1QP1P3/PP1P1PPP/RNB1K1NR w KQkq - 2 5",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/8/PP5N/2PPPPPP/RNBQKB1R b KQkq - 0 3",
+        "move": "e6e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1pp1p1pp/3p1p2/p7/3P2P1/4P3/PPP2P1P/RNBQKBNR w KQkq - 0 4",
+        "move": "h2h3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kb1r/pp1ppppp/2p2n2/7Q/8/P3P3/1PPP2PP/RNB1KBNR w KQkq - 1 5",
+        "move": "h5h3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1pp1pppp/7n/p2p4/P1P5/3P4/1P2PPPP/RNBQKBNR w KQkq - 1 4",
+        "move": "c4d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/pbpppppp/1p6/6B1/3P4/5P2/PPP1P1PP/RN1QKBNR b KQkq - 2 3",
+        "move": "f7f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/pppb1p2/n3p2p/1P1p2p1/8/B1NP4/P1P1PPPP/1R1QKBNR w Kkq - 0 7",
+        "move": "a3f8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp2p/8/5pp1/8/P1N5/1PPPPPPP/R1BQKBNR w KQkq - 0 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkb1r/ppp1pppp/8/5b2/3p2PP/2N2P2/PPPPPn2/1RBQKBNR b kq - 3 8",
+        "move": "f2d1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1k3/ppppqppr/4p2p/2bn4/P1PP1P2/N6P/1P1QP1P1/R1B1KBNR b KQq - 0 8",
+        "move": "c5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pp1ppppp/n1p5/8/8/5P2/PPPPPKPP/RNBQ1BNR w kq - 0 3",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/7p/8/8/7N/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbr1/ppp1pppp/3p4/8/1n6/2P1PP2/PP1P2PP/RNBQKBNR w q - 0 8",
+        "move": "c3b4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppp1ppp/n3p3/8/8/P6P/1PPPPPP1/RNBQKBNR w KQkq - 1 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/ppppp1pp/7n/8/3PPpP1/N7/PPP2P1P/R1BQKBNR b KQkq e3 0 4",
+        "move": "f4e3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/3P4/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pp2p1p1/1Pp2p1p/3p3P/1n5R/5N2/P1PPPPP1/RNBQKB2 b Qkq - 0 7",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk2r/p1pppp1p/1p1n3b/6p1/1P6/N4P2/PBPPP1PP/R2QKBNR w kq - 0 7",
+        "move": "b2h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1k1nr/pp1p1ppp/3b4/P1p1p3/4P3/2P2q1N/RP1P1PPP/1NBQKB1R b Kkq - 0 7",
+        "move": "f3e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bk1bnr/1p1pp1pp/p4p1B/q1P5/Qn2N3/2P5/PP2PPPP/R2K1BNR b - - 6 8",
+        "move": "a5a4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/2ppp1p1/p6p/1p3p2/5N2/N3P3/PPPP1PPP/R1BQKB1R w KQkq - 0 5",
+        "move": "d1h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/1ppp1pp1/2n2n2/p3p2p/1P3PPP/8/P1PPP2R/RNBQKBN1 w Qkq - 1 6",
+        "move": "g4g5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp1pppp1/2p5/6np/3P3P/NPP2NP1/P3PP2/R1BQKB1R w KQkq - 1 8",
+        "move": "c1g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1rb1kbnr/1p1p3p/p4p2/q1p1p1p1/1P4P1/3P1N1P/P1PQPP2/RN2KB1R b KQk - 0 8",
+        "move": "c5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/p1ppppp1/n6n/1p6/7p/P2P3N/1PPBPPPP/RN1QKB1R b Kkq - 3 6",
+        "move": "c7c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkb1r/rp1pppp1/8/p1pn4/2P4p/4P3/PP1N1PPP/R1BQKBNR w KQk - 2 8",
+        "move": "c4d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/1B1n1ppp/3pp2n/p7/1Pp5/2P1P3/PQ1P1PPP/RNB1K1NR b KQkq - 1 8",
+        "move": "c8b7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kbnr/pp1ppppp/2nq4/2p5/PP6/5P1P/2PPP1P1/RNBQKBNR w KQkq - 1 5",
+        "move": "e2e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk2r/1p1pp1bp/p1p2ppn/6N1/6P1/5P1P/PPPPP1B1/RNBQK2R w KQkq - 0 7",
+        "move": "g5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p5pp/3p4/1p2pp2/P2p4/2N2PB1/RPP1P1PP/3QKBNR b Kkq - 1 7",
+        "move": "c8e6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/pppp1ppp/4p1q1/8/N2P4/7P/PPP1PPP1/R1BQKBNR b KQkq - 2 4",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/1pp1pp1p/1n1p4/p7/6p1/P3P2P/RPPP1PP1/1NBQKBNR w Kkq - 1 7",
+        "move": "h3g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/2pn1p1p/3pp2p/1p6/pP1P2P1/8/P1P1PP1P/RN1QKBNR w KQkq - 0 8",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/6P1/7B/PPPPPP1P/RNBQK1NR b KQkq - 1 2",
+        "move": "h7h5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/pbNpppp1/8/7p/PpP5/1P3N2/3PPPPP/R1BQKB1R b KQkq - 0 7",
+        "move": "d8c7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/1ppp3p/p4p1n/4p1p1/4P3/N5P1/PPPPQP1P/R1B1KBNR w KQkq - 2 6",
+        "move": "e2h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pp1pp2p/n5p1/2p2p2/1P6/2N3PB/P1PPPP1P/R1BQK1NR w KQkq - 0 5",
+        "move": "c1b2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/ppp2ppp/7B/3pp3/6Pq/3P4/PPP1PPBP/RN1QK1NR b KQkq - 3 4",
+        "move": "g8h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp3pp1/4p3/3p3p/PPp5/N5PP/2PPPP2/1RBQKBNR w Kkq - 0 7",
+        "move": "g1f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbk1bnr/p1pp1pp1/8/4p2p/Pp3P1P/2P4P/RP1PP3/1NBQKBNR w K - 0 8",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/p2ppppp/bpp5/8/4P3/3B1PP1/PPPP3P/RNBQK1NR b KQkq - 2 4",
+        "move": "a6d3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/2P5/4P3/PP1P1PPP/RNBQKBNR b KQkq - 0 2",
+        "move": "g7g6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/1p1ppppp/p1n5/2p5/5P2/3PP3/PPP3PP/RNBQKBNR w KQkq - 1 4",
+        "move": "g1f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/ppp2p1p/3ppb2/6p1/7P/4P3/PPPP1PPR/RNBQKBN1 w Qkq - 0 6",
+        "move": "h4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkb1r/p1p1npp1/b6p/1p1pp3/5N1P/3PP3/PPPBKPP1/RN1Q1B1R w kq - 0 8",
+        "move": "f4h5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1p1p1pp/5p2/1p1p4/P1P4N/8/1P1PPPPP/RNBQKB1R b KQkq - 1 4",
+        "move": "b5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1ppp1p1/5p2/1p5p/4P2P/6PN/PPPP1P2/RNBQKB1R b KQkq - 0 4",
+        "move": "c8b7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p2p2pp/1p2pp2/2p3B1/8/2NP3P/PPP1PPP1/R1Q1KBNR b KQkq - 1 5",
+        "move": "f6g5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/p4ppp/bp6/3pp3/1Pp3P1/N6N/P1PPPP1P/R1BQKB1R w Qkq - 0 7",
+        "move": "c2c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1pppp1p1/5p1p/8/1p1P4/8/PBP1PPPP/RN1QKBNR w KQkq - 0 5",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/5p2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r2q1bnr/p2kpppp/1pn1b3/2p5/P1Pp1P2/1Q2P3/1P1P2PP/RNB1KBNR b KQ - 0 8",
+        "move": "g7g6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/2pppppp/p7/1p6/1P6/6P1/P1PPPP1P/RNBQKBNR w KQkq - 0 3",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1p1ppppp/8/p1p5/2P2P2/4P3/PP1P2PP/RNBQKBNR b KQkq - 0 3",
+        "move": "g8f6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pp1pppp1/2p4p/8/PP3P2/4n2P/2PPP1P1/RNBQKBNR w KQkq - 0 6",
+        "move": "d2e3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/7P/PPPPPPP1/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppp1pp2/2n4p/6p1/1P1p4/N4BP1/P1PPPP1P/R1BQK1NR w KQkq - 0 6",
+        "move": "c1b2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/p1ppp2p/b4pp1/8/p5PP/R1P2N2/1P1PPP2/1NBQKB1R b Kkq - 1 6",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1ppppp1/6N1/1p5p/8/8/PPPPPPPP/RNBQKB1R b KQkq - 1 3",
+        "move": "f7g6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p2pppp1/1p5p/8/2p5/P1P3P1/1P1PPP1P/RNBQKBNR b KQkq - 1 5",
+        "move": "c8b7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/5p2/8/8/4P3/PPPPQPPP/RNB1KBNR b KQkq - 1 2",
+        "move": "b8c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/p1ppp1pp/5p2/1p6/1n3P1P/1P4PN/P1PPP3/RNBQKB1R b KQkq - 0 5",
+        "move": "c8b7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "2bqk2r/rppp1ppp/2n1p2n/p1b4P/5P2/PP6/1BPPP1P1/RN1QKBNR b KQk - 0 7",
+        "move": "e6e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/6p1/8/PP6/8/2PPPPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "f8g7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/7p/8/2P2P2/8/PP1PP1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/2p2ppp/8/pp1p4/1n1P1p2/N4NP1/PPP1PPBP/R2QK2R b KQkq - 1 8",
+        "move": "a8b8",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pp1pp/8/2p5/5pP1/PP5N/2PPPP1P/RNBQKB1R b KQkq - 0 4",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1p1pppp/1p1p4/8/2P2P2/8/PP1PP1PP/RNBQKBNR w KQkq - 0 3",
+        "move": "b1c3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb2/pp1ppppr/5n1p/2p4Q/2P5/4PP1P/PP1P2P1/RNB1KBNR b KQq - 0 5",
+        "move": "f6h5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/8/6p1/5P2/N7/PPPPP1PP/R1BQKBNR b KQkq - 0 2",
+        "move": "g5f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppppp3/8/1N3ppp/6P1/1Pn4B/P1PPPP1P/R1BQK1NR b kq - 2 8",
+        "move": "c3d1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqk2r/pppp2bp/5p1n/4p1p1/1n2P1P1/2P2P1P/P1QP4/RNB1KBNR w KQkq - 0 8",
+        "move": "c3b4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/8/7p/3P4/P7/1PP1PPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r2qkbnr/p1pnppp1/4b3/1p1p3p/4P3/N2P4/PPP1BPPP/R1BQK2R b Qkq - 0 8",
+        "move": "c7c6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/pb1pppp1/7p/2p5/2p1PP1P/8/PPPPN1P1/RNBQK2R b KQkq - 0 6",
+        "move": "e7e6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1pp1p1p1/p7/3p1p1p/1P6/3P2PB/P1P1PP1P/RNBQK1NR w KQkq - 0 5",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r2qkb1r/ppp1pppp/n3b2n/8/2Pp4/1P3N2/PQ1PPPPP/RNB1KB1R w KQkq - 2 6",
+        "move": "f3d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pp1p/8/3p2p1/3P4/7P/PPPKPPP1/RNBQ1BNR b kq - 0 3",
+        "move": "c7c5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/p1p1p1pp/8/1p1p1p2/1P4P1/NR5N/P1PPQP1P/2B1KB1R b Kkq - 0 7",
+        "move": "f5g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kb1r/1pppq2p/p3p1p1/5p2/3P2nP/NP1QP3/P1P2PP1/R1B1KBNR w KQkq - 0 8",
+        "move": "f2f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "move": "c7c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1pppppp1/8/pN6/P6p/4P3/1PPP1PPP/R1BQKBNR b KQkq - 0 4",
+        "move": "c7c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/5n2/8/5P2/8/PPPPPKPP/RNBQ1BNR b kq - 2 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkb1r/p1p3pp/1p2bp1n/3pp3/2PP4/1PN3PN/P1QKPP1P/R1B2B1R b kq - 3 8",
+        "move": "e6f5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "move": "c7c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/ppppp1p1/2n5/5p1p/3P2P1/7N/PPP1PP1P/RNBQKB1R w KQkq - 0 4",
+        "move": "g4f5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/1p1ppppp/2p4n/p7/4P3/2N2BPN/PPPP1P1P/R1BQKR2 w Qkq - 4 8",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1pp1ppp1/5nN1/p2p3p/4P1P1/8/PPPP1P1P/RNBQKB1R w KQkq - 0 6",
+        "move": "g6h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "2bqkbnr/rp1ppp1p/2n5/p1pP2p1/3QP3/7N/PPP2PPP/RNB1KB1R w KQk - 5 8",
+        "move": "d4h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/6P1/5P2/PPPPP2P/RNBQKBNR w KQkq - 0 3",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/ppppp2p/6pb/5p2/5PP1/8/PPPPPK1P/RNBQ1BNR w kq - 2 4",
+        "move": "g4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp2pppp/2pp4/8/2P5/BP6/P2PPPPP/RN1QKBNR b KQkq - 1 3",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp2p3/5ppp/2Bp4/8/P1PP4/1P2PPPP/RN1QKBNR w KQkq - 0 6",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kbnr/ppp2ppp/n2ppq2/4P3/8/6P1/PPPP1P1P/RNBQKBNR b KQkq - 0 5",
+        "move": "f6e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp2pp/5p2/4p3/2P5/3P4/PP1BPPPP/RN1QKBNR b KQkq - 1 3",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/ppppp1pp/8/5p2/2nP3N/1Q6/PPP1PPPP/RNB1KB1R b KQkq - 3 5",
+        "move": "c4d6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/3ppppp/1pp4n/p7/N7/PPPP4/4PPPP/R1BQKBNR w KQkq - 0 7",
+        "move": "c1e3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/p1p2p1n/1p1p2pp/4p3/2N2P1P/4P1R1/PPPP1KP1/R1BQ1BN1 b kq - 1 8",
+        "move": "h7f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p2ppppp/2p5/1p6/3P4/1PN5/P1P1PPPP/R1BQKBNR b KQkq - 1 3",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/1p2pppp/p1p5/3p1b2/2P1P2P/3B4/PP1P1PP1/RNBQK1NR b KQkq - 0 5",
+        "move": "d5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1rb1kb1r/ppp2ppp/n2p1q1n/4p3/P4PP1/7P/RPPPP2R/1NBQKBN1 b k - 2 7",
+        "move": "f6h4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp2pp1p/2p5/3p2p1/3NP3/3B1P2/PPPP2PP/RNBQK2R w KQkq - 4 6",
+        "move": "e4d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1rbqkbnr/ppppppp1/2n4p/1N6/4P1P1/8/PPPP1P1P/R1BQKBNR b KQk - 2 4",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kbnr/ppp1pp1Q/1qnp4/6p1/2P5/7P/PP1PPPP1/RNB1KBNR w KQkq - 1 7",
+        "move": "h7h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pp2/3p2pp/8/3P1N2/1P6/P1P1PPPP/RNBQKB1R b KQkq - 0 4",
+        "move": "f8g7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1p1pppp/1p6/3p4/8/1QP4P/PP1PPPP1/RNB1KBNR w KQkq - 0 4",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p2ppp1p/1pp5/6p1/1P2P3/P4P2/1BPPK1PP/RN1Q1BNR w kq - 0 7",
+        "move": "b2h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1ppp1pp/8/1p3p2/5P2/N7/PPPPP1PP/R1BQKBNR w KQkq - 0 3",
+        "move": "a3b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/pppqppp1/3p4/7p/6P1/3PPQ2/PPP2P1P/RNB1KBNR b KQkq - 0 4",
+        "move": "h5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/ppppppp1/5n2/7p/5P2/8/PPPPPKPP/RNBQ1BNR w kq - 2 3",
+        "move": "g1f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r3kbnr/pppn1p1p/5q2/P2pp1B1/3P4/2N2P1b/1PP1P1PP/R2QKBNR b KQkq - 0 7",
+        "move": "f6g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbr1/ppp1pp1p/3p4/3P2p1/3QPn1P/N4P1b/PPP3P1/R1B1KB1R b KQq - 1 8",
+        "move": "h3g2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/7n/8/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 1 2",
+        "move": "g1f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kbnr/pp2p3/n1p2pp1/q2p3p/1PP1P2P/2NQ4/P2P1PP1/R1B1KBNR b KQkq - 0 8",
+        "move": "a6b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/ppppp1pp/7n/5p2/4PP2/N7/PPPP2PP/R1BQKBNR b KQkq - 0 3",
+        "move": "f5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppp2/1p4p1/7p/P2P1P2/2N5/1PP1P1PP/R1BQKBNR b KQkq - 0 4",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/8/2P2P2/PP1PP1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "c7c5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqkbnr/r2ppppp/p7/1pp5/1P2P3/2NP1P2/P1P3PP/R1BQKBNR b KQk - 0 5",
+        "move": "c5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/pppppppp/2n4n/8/5N2/N7/PPPPPPPP/R1BQKB1R b KQkq - 5 3",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbn1/pp1ppppr/7p/8/1Pp5/P3P2N/2PP1PPP/RNBQKB1R w KQq - 1 5",
+        "move": "f1c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/1p1pp1p1/pq3p1p/2p5/P7/1P2P3/1BPPBPPP/RN1QK1NR b KQkq - 0 6",
+        "move": "h6h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kbnr/3ppppp/p1n5/1pp5/q4PP1/1PP5/P2PPK1P/RNBQ1BNR w kq - 1 7",
+        "move": "b3a4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/ppppppp1/2n4p/8/5P2/3P4/PPPBP1PP/RN1QKBNR b KQkq - 1 3",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqkbnr/rppppppp/8/p7/P7/5N2/1PPPPPPP/RNBQKB1R w KQk - 2 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/pbpp1pp1/8/1p2p1Np/5P2/N7/PPPPP1PP/R1BQKB1R w KQkq - 0 5",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pp1p1/7p/PNp5/5p2/6P1/1PPPPP1P/R1BQKBNR b KQkq - 1 5",
+        "move": "b8c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bq2nr/ppppkpp1/2n1p3/7p/1b2P2P/2P3P1/P2P1P2/RNBQKBNR w KQ - 1 8",
+        "move": "c3b4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkbnr/1pppp2p/r4p2/p7/2P3p1/PP5N/1B1PPPPP/RN1QKB1R w KQk - 0 6",
+        "move": "e2e3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/pppppppp/n4n2/8/5PP1/7B/PPPPP2P/RNBQK1NR b KQkq - 2 3",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppp1p1p/6p1/p3p3/8/N1P4P/PP1PPPP1/1RBQKBNR b Kkq - 1 4",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/1ppp2pp/p4p2/4p2n/7P/P1P1P1P1/1P1PKP2/RNBQ1BNR w q - 1 7",
+        "move": "g3g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/p2pp1pp/1pp4n/1n3p2/PP6/4P1P1/1BPP1P1P/R2QKBNR w KQkq - 0 8",
+        "move": "a4b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "2bqkbnr/2pp1ppp/r5n1/pp2p1B1/1PP1P3/P2P4/5PPP/RN1QKBNR b KQk - 1 8",
+        "move": "d8g5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/p7/8/3P4/2N5/PPP1PPPP/R1BQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kb1r/p1qppppp/1pp4n/1Pn5/2P1P2P/P7/3P1PP1/RNBQKBNR w KQkq - 1 7",
+        "move": "b1c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/8/p7/3P4/6P1/PPP1PP1P/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kbnr/pp1p1ppp/nqp5/4p3/1P2P3/P4N2/2PP1PPP/RNBQKB1R w KQkq - 0 5",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1p1p/4p1p1/8/2P2PP1/8/PP1PP2P/RNBQKBNR b KQkq - 0 3",
+        "move": "d8h4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 3",
+        "move": "c4d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/6P1/4P3/PPPP1P1P/RNBQKBNR w KQkq - 0 3",
+        "move": "g4g5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/pppp1p1p/6p1/3Pp3/1b6/1P6/P1P1PPPP/RNBQKBNR w KQkq - 1 4",
+        "move": "c2c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kb1r/pp2pppp/2pq3n/3p4/P1BN4/4P3/1PPP1PPP/RNBQK2R b KQkq - 3 5",
+        "move": "d5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq1bn1/1ppkppp1/3p3r/p6p/7P/2P2PP1/PP1PPK2/RNBQ1BNR w - - 5 8",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p2pp2p/1pp3p1/1N3p2/5P1P/8/PPPPP1P1/R1BQKBNR w KQkq - 0 5",
+        "move": "b5c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pp2p1pp/n4p2/2pp4/8/1P2NP2/P1PPP1PP/R1BQKBNR b KQkq - 0 5",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb2/pp1ppppr/2p2n2/5P1p/P2P3P/8/1PP1PNP1/RNBQKB1R b KQq - 0 8",
+        "move": "d8a5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1rbqkbnr/3p1ppp/1pp1p3/p7/1n5P/P1N1PQ2/1PPP1PPR/R1B1KBN1 w Qk - 0 8",
+        "move": "a3b4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/2pppppp/p7/1p6/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 3",
+        "move": "d2d3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqkbnr/rpp2p1p/3p4/p3p1p1/QP6/2P3P1/P2PPP1P/RNB1KBNR b KQk - 1 6",
+        "move": "c7c6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppp1p/2p5/8/P1N5/1P2P2N/2PP2pP/R1BQKB1R w KQkq - 1 8",
+        "move": "f1g2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/1pp1ppp1/3B3p/3p4/1p4b1/3P4/P1PNPPPP/RN1QKB1R w KQkq - 2 8",
+        "move": "d6b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/pp4pp/5p2/2ppp3/P1Q1PP1P/b7/1PPPN1P1/RNB1KB1R b KQkq - 1 8",
+        "move": "d5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/p1ppn2p/1p2N1p1/5p2/8/1PP5/P2PPPPP/RNBQKB1R w KQkq - 0 6",
+        "move": "e6d8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/p1p1pppp/1p6/3p1b2/8/2PP2P1/PPNBPP1P/R2QKBNR w KQkq - 3 7",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pp1n1pp1/2pQp2p/1B6/P2PP3/8/1PP2PPP/RNBK2NR b - - 2 8",
+        "move": "f8d6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk2r/ppp2p1p/5n2/2PpN1p1/P5P1/4P3/1P1b1P1P/RNBQKB1R w KQkq - 0 8",
+        "move": "c1d2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1rbqkb1r/1ppppppp/7n/p3N2P/4P3/N7/nPPP1PP1/R1BQKBR1 b Qk - 0 7",
+        "move": "a2c1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn2kbnr/ppp2pp1/3p3p/4p3/1PB5/4Pq1b/P1PP2PP/RNBQK1R1 b kq - 1 8",
+        "move": "f3d1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp1pp2p/6pn/2p2p2/8/1P2N3/P1PPPPPP/R1BQKBNR w KQkq - 0 5",
+        "move": "c1b2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/P7/N1P3P1/1P1PPP1P/R1BQKBNR b KQkq - 0 4",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq1bn1/pppp1kp1/1r2p3/2P4p/8/4P3/PP1P1PPP/RNB1KBNR b KQ - 0 6",
+        "move": "f8c5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/3P4/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "g1f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppppp1p/8/n5p1/5N2/N1P3P1/PP1PPP1P/R1BQKB1R b KQkq - 0 5",
+        "move": "g5f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/p1pp3p/1P2pp2/R3n3/7p/2N5/1PPPPPPP/2BQKB1R w Kkq - 0 8",
+        "move": "a5a7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/1bp1pppp/pp6/n2p2P1/3PP3/3B3N/PPP2P1P/RNBQK2R w KQkq - 4 7",
+        "move": "e4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/2pnpp1p/pp1p2p1/8/P4P2/1P5N/2PPP1PP/RNBQKB1R w KQkq - 0 6",
+        "move": "c1b2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kbnr/1pp1ppp1/p1nq3p/3p4/2PP1P2/8/PP1NP1PP/R1BQKBNR b KQkq - 0 6",
+        "move": "c6d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/1P1P4/8/P1P1PPPP/RNBQKBNR b KQkq - 0 3",
+        "move": "c6b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pp1npppp/8/2pp4/1PP5/P6N/3PPPPP/RNBQKB1R b KQkq - 0 4",
+        "move": "d5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p3p1pp/3p4/1pp1Np1P/8/8/PPPPPPP1/RNBQKBR1 w Qkq - 0 6",
+        "move": "e5f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pp1p/8/3p2p1/3P3P/1P2PN2/P1P2PP1/RNBQKB1R w KQkq - 0 6",
+        "move": "h4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1ppp2pp/p3pp2/7P/5P2/8/PPPPP1PR/RNBQKBN1 b Qkq - 0 4",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/5P1P/PPPPP1P1/RNBQKBNR w KQkq - 0 3",
+        "move": "e2e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pp1p/3p4/6p1/4N2P/8/PPPPPPP1/R1BQKBNR w KQkq - 0 4",
+        "move": "h4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq1k1r/3pbppp/p1pp1n2/1p6/6P1/PP2P3/2PP1P1P/R1BQKBNR b KQ - 0 8",
+        "move": "f6e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/p1ppppp1/np6/7p/P7/1P6/2PPPPPP/RNBQKBNR b KQkq - 0 4",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/pppppppp/5n2/7Q/4P3/8/PPPP1PPP/RNB1KBNR w KQq - 3 3",
+        "move": "h5e2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/2p1p1p1/p2p3p/1p3p2/4PB2/3P4/PPPK1PPP/RN1Q1BNR w kq - 0 7",
+        "move": "d1h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/p1p2p1p/1p2p2b/3p2p1/1PP5/P1N2P2/3PP1PP/R1BQKBNR w KQkq - 1 6",
+        "move": "c4d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/pp1pp2p/2p3p1/5P2/2P5/1Q4qP/PP1P1P2/RNB1KBNR b KQkq - 1 6",
+        "move": "g3b3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/ppp1p1p1/2npbp1p/8/PP6/3PP3/2P2PPP/RNBQKBNR b KQkq - 0 6",
+        "move": "c6b4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1pppp1pp/5p2/p7/8/P4N2/1PPPPPPP/RNBQKBR1 b Qkq - 1 3",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/2p1pppp/7n/pp1p4/Q7/2P5/PP1PPPPP/RNB1KBNR w KQkq - 0 5",
+        "move": "a4b5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbn1/3ppp1r/1p4pp/p7/1p2P1P1/P4P1P/2PP4/RNBQKBNR w KQq - 1 8",
+        "move": "a3b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/1ppbpp2/8/p2p1Qpp/8/NP2P2P/P1PP1PPR/R1B1KBN1 w Qkq - 2 8",
+        "move": "f5d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/1pppp1pp/5p2/p7/Pn5P/2P1P3/1P1P1PP1/RNBQKBNR b KQkq - 0 5",
+        "move": "b4c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/1pp2ppp/P2p4/4p3/5P1q/P5P1/2PPP2P/RNBQKBNR b KQkq - 0 6",
+        "move": "h4e7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/1P6/3P4/P1P1PPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pppp1/7p/2p5/3P3P/2N5/PPP1PPP1/1RBQKBNR w Kkq - 1 5",
+        "move": "d4c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq2nr/pppkb1pp/5p2/3pp1P1/5P2/1P3N2/P1PPP2P/RNBQKB1R w KQ - 0 6",
+        "move": "g5f6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/6P1/7N/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+        "move": "h1g1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1k1nr/1pppq2p/p3pp1B/2P3p1/5b2/3P2PP/PP1NPP2/R2QKBNR w KQkq - 2 8",
+        "move": "g3f4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/pppppp1p/6pb/8/5P2/1P6/P1PPP1PP/RNBQKBNR w KQkq - 1 3",
+        "move": "c1b2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbr1/pp1pppp1/5n2/2pP3p/8/N5Q1/P3PPPP/R1B1KBNR b KQq - 0 8",
+        "move": "f6e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkb1r/rppppppp/5n2/p7/6P1/P1P5/1P1PPP1P/RNBQKBNR w KQk - 1 4",
+        "move": "g4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/ppp4p/4pp1b/2Pp2p1/6P1/P6P/1PQPPP2/RNB1KBNR b KQkq - 0 6",
+        "move": "b8c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqk1n1/p1ppbpp1/2n1p2r/1p5p/4P3/N6N/PPPP1PPP/R1BQKBR1 b Qq - 2 7",
+        "move": "b5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/1p1p1p1p/2p1p3/p5p1/Q3PP2/b1P5/PP1P2PP/RNB1KBNR b KQkq - 0 7",
+        "move": "a3e7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbr1/pppppppp/5n2/8/8/5P1N/PPPPP1PP/RNBQKB1R w KQq - 1 3",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp2pp1/7p/4p2P/3p4/3R4/PPPPPPP1/RNBQKBN1 w Qkq - 0 5",
+        "move": "d3g3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppp1ppp/7n/4p3/N2P4/8/PPPBPPPP/R2QKBNR b KQkq - 4 5",
+        "move": "h6g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "b8c6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pp1ppp/1p6/4p3/8/N6N/PPPPPPPP/R1BQKB1R w KQkq - 0 3",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppppp1p1/2n2p1p/8/2P3P1/8/PP1PPP1P/RNBQKBNR w KQkq - 0 4",
+        "move": "b1c3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/1p2p1pp/2ppb3/p4p2/PP6/6PN/R1PPPP1P/1NBQKB1R w Kkq - 0 7",
+        "move": "a2b2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1p2pp/2p1p3/5p2/P5PP/R7/1PPPPP2/1NBQKBNR b Kkq - 1 4",
+        "move": "f8a3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/8/p7/1P6/4P3/P1PP1PPP/RNBQKBNR b KQkq - 0 2",
+        "move": "a5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkb1r/pp1bpppp/2pp3n/8/P4P1P/N7/1PPPP1P1/R1BQKBNR b KQkq - 0 5",
+        "move": "d7g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/1ppp1ppp/p1n5/4p1P1/5P2/8/PPPPP2P/RNBQKBNR b KQkq - 0 4",
+        "move": "e5f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pppp1/8/2p4p/4P3/1P6/P1PPBPPP/RNBQK1NR b KQkq - 1 3",
+        "move": "d7d6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1k1nr/pppp1ppp/4p2B/2b5/3q4/1PNP4/P1PKPPPP/1R1Q1BNR b kq - 6 6",
+        "move": "c5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pp1pp/2p2p2/8/8/3P4/PPPBPPPP/RN1QKBNR w KQkq - 0 3",
+        "move": "d3d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/1P6/2N5/P1PPPPPP/R1BQKBNR b KQkq - 1 2",
+        "move": "f8b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/pp1ppppp/1q6/2p5/3P4/P7/1PP1PPPP/RNBQKBNR w KQkq - 1 3",
+        "move": "d4c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbr1/2pp1ppp/1p5B/p3p3/8/2PP4/PP2PPPP/RN1QKBNR w KQq - 2 6",
+        "move": "h6d2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkb1r/pppbpp1p/3p2pn/8/6P1/P1N2N1B/1PPPPP1P/R1BQK2R b KQkq - 2 5",
+        "move": "h6g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppp1pp1p/n5p1/3p4/8/P4P1P/1PPPP1P1/RNBQKBNR w KQkq - 0 4",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/p1p3pp/1pn2p1B/3p4/4p3/2PP3P/PP2PPP1/RN1QKBNR b KQkq - 0 8",
+        "move": "g7h6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/7P/6P1/PPPPPP2/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/pp3ppp/8/2ppp3/PP1PnB2/7P/R1P1PPP1/1N1QKBNR w Kq - 0 7",
+        "move": "f4e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp2p/5pp1/8/1P3P2/N7/PBPPP1PP/2RQKBNR b Kkq - 3 5",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/ppppppp1/5n2/7p/3P3P/8/PPP1PPP1/RNBQKBNR w KQkq - 1 3",
+        "move": "c2c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/2n5/8/5P2/3P4/PPP1P1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p2p1ppp/1p2p3/2p3B1/3P4/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4",
+        "move": "g5d8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/3ppppp/8/pB6/1p2P1n1/7N/P1PP1PPP/RNBQK2R w Qkq - 0 7",
+        "move": "d1g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/6p1/6P1/8/8/PPPPPP1P/RNBQKBNR b KQkq - 0 2",
+        "move": "f8g7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppp1p2/4pn2/6pp/1P4Q1/2P1P1P1/P2P1P1P/RNB1KBNR w KQkq - 0 6",
+        "move": "g4e2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/1P2P3/8/P1PP1PPP/RNBQKBNR w KQkq - 0 3",
+        "move": "g1f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/8/1p6/2P5/5P2/PP1PP1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "b5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/p1pbpppp/1p6/3p2N1/8/P1PP4/NP2PPPP/R1BQKB1R w KQ - 1 8",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/8/4P2N/PPPP1PPP/RNBQKB1R b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/3ppp2/ppp3pp/8/2P4P/1P2PN2/P2PKPP1/RNBQ1B1R b kq - 0 8",
+        "move": "f8g7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/pp1p1ppp/2p1p3/8/1b4PP/2N4N/PPPPPP2/R1BQKB1R b KQkq - 2 4",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1p1ppppp/p7/2p5/P7/1PP2P2/3PP1PP/RNBQKBNR w KQkq - 0 5",
+        "move": "e2e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq1b1r/1ppppk1p/5p1n/p5p1/6P1/5P1P/PPPPP2N/RNBQKB1R b KQ - 0 6",
+        "move": "c7c5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kbnr/pppqpppp/n7/3p3Q/B3P3/P1N5/1PPP1PPP/R1B1K1NR b KQkq - 2 6",
+        "move": "c7c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/ppp2ppp/3p4/4p3/2P4P/N6b/PP1PPPP1/R1BQKBNR w KQkq - 0 4",
+        "move": "g1h3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkb1r/p1ppp1pp/bp5n/5P2/QPP5/8/P2P1PPP/RNB1KBNR b KQkq - 2 5",
+        "move": "a6b7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kbnr/1pppqpp1/2n4p/pP2p1P1/8/4P2N/P1PP1P1P/RNBQKB1R w KQkq a6 0 7",
+        "move": "b5c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/pp1ppppp/1qp5/8/1P6/4PN2/P1PP1PPP/RNBQKB1R b KQkq - 2 3",
+        "move": "b6b4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bq1bnr/p1pkpppp/1pn5/3p4/1P4P1/P7/R1PPPP1P/1NBQKBNR w K - 1 5",
+        "move": "c2c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/2P4N/PP1PPPPP/RNBQKB1R b KQkq - 1 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbn1/ppppp1p1/7B/5p1r/1nPP2Pp/8/PP2PP1P/RN1QKBNR b KQq - 1 8",
+        "move": "h5h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/ppp1nppp/3pp3/8/7P/N2P4/PPP1PPP1/R1BQKBNR w KQkq - 0 4",
+        "move": "g1f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/p1pppp1p/1p3n2/1Q4p1/4P1P1/8/PPPP1P1P/RNB1KBNR b KQkq - 1 4",
+        "move": "b8c6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bq1bnr/pppp1kpp/n4p2/4p3/2P5/PP2N3/1B1PPPPP/R2QKBNR b KQ - 2 7",
+        "move": "c7c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/1p1p2bp/p4pp1/2p1p3/P3P1P1/1PNP1P2/2P4P/R1BQKBNR b KQkq - 0 8",
+        "move": "b8c6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppppp1pp/2n5/5p2/8/1P1PB3/P1P1PPPP/RN1QKBNR b KQkq - 0 3",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1k1nr/ppq1b2p/3p2p1/P1p1pp2/3P2PP/7N/1PPNPP2/1RBQKB1R b Kkq - 1 8",
+        "move": "f5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/1pppp1pp/p4p2/8/1n3PQ1/4P3/PPPP2PP/RNB1KBNR w KQkq - 3 5",
+        "move": "g4d1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/pp3p2/2p4p/3pp1p1/P1N2P2/b2PB3/1PP1P1PP/R2QKBNR w KQkq - 1 7",
+        "move": "c4a3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/pppppppp/5n2/2n5/1P3P2/P4N2/2PPP1PP/RNBQKB1R b KQkq - 0 4",
+        "move": "c5a6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1ppppp1p/p4np1/8/5P2/2N4N/PPPPP1PP/R1BQKB1R w KQkq - 2 4",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/p2pp1bp/1pPp4/1N3p2/6p1/8/PP1PPPPP/R1B1KBNR b KQkq - 1 8",
+        "move": "d7c6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/p2pp1pp/n4n2/1pp5/P1P2p2/1Q4PN/NP1PPP1P/R1B1KB1R b KQkq - 1 7",
+        "move": "b5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bq1bnr/1p1nkppp/p1ppp3/2P5/4PP2/P4N2/1P1P1KPP/RNBQ1B1R b - - 2 7",
+        "move": "d7c5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq1bnr/ppppkp1p/4p3/6p1/P7/R4NP1/1PPPPP1P/1NBQKB1R b K - 1 4",
+        "move": "e7e8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/p1pppppp/2n5/1p6/3P1P2/6P1/PPP1P2P/RNBQKBNR b KQkq - 0 3",
+        "move": "g8f6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/2pppppp/p1n5/1p6/8/1P1P2P1/P1P1PP1P/RNBQKBNR w KQkq - 0 4",
+        "move": "c1b2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp5/1P3p2/3ppNpp/8/1QP5/P2PPPPP/RNB1KB1R b KQkq - 1 8",
+        "move": "c8f5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p3p1p1/1p1p3p/2p5/1P2Pp2/3B3N/P1PP1PPP/RNBQK1R1 w Qkq - 0 7",
+        "move": "d1h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/ppp1pppp/8/3p4/6bP/2N1P3/PPPP1PP1/R1BQKBNR b KQkq - 0 3",
+        "move": "g4d1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/ppppp1pp/2n2p1n/8/8/N3PP2/PPPP1KPP/R1BQ1BNR b kq - 2 4",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "move": "g8f6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk2r/pppppp1p/5n1b/6p1/8/2P1PN2/PP1P1PPP/RNBQKB1R w KQkq - 1 4",
+        "move": "h2h3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppp2/7p/1p4p1/2N3P1/P7/1PPPPP1P/R1BQKBNR b KQkq - 0 4",
+        "move": "b5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/3p4/P7/8/8/1PPPPPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "c7c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kb1r/p1pqpp2/6pn/1p1p3p/2P1P3/3P3P/PPN1QPP1/R1B1KBNR b KQkq - 2 7",
+        "move": "b5c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp2ppp/8/3pp3/2N5/5P2/PPPPP1PP/R1BQKBNR b KQkq - 1 3",
+        "move": "d5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/4pppp/p2p4/1pp5/2P5/BP2P3/P2P1PPP/RN1QKBNR b KQkq - 1 5",
+        "move": "b5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1p1/5p1p/8/3P4/5P2/PPP1P1PP/RNBQKBNR w KQkq - 0 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/6p1/8/P3P1P1/2P5/1P1P1P1P/RNBQKBNR b KQkq - 0 4",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/P7/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/8/7p/8/5PP1/PPPPP2P/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/6p1/8/4P1P1/3P4/PPP1NP1P/RNBQKB1R b KQkq - 0 4",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r2q1bnr/p1pkppp1/1pn4p/1B1pP3/5PbP/2P5/PP1P2P1/RNBQK1NR b KQ - 0 7",
+        "move": "g4d1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/ppp1pppp/8/3p2Bn/P7/3P4/1PP1PPPP/RN1QKBNR w KQkq - 2 4",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1ppp2p/8/1p2Bpp1/6P1/1P6/P1PPPPBP/RN1QK1NR b KQkq - 1 5",
+        "move": "g8f6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/1pppppp1/n6p/p7/8/N5PN/PPPPPPBP/R1BQK2R b KQkq - 3 4",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kb1r/pp1pnpp1/q1p1p3/6Pp/P7/4P3/1PPP1P1P/RNBQK1NR w KQkq - 1 7",
+        "move": "b1c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1p1p1p/6p1/2p1p3/P1P4P/8/1P1PPPP1/RNBQKBNR b KQkq - 0 4",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1p1pp1pp/8/p1p2pN1/3P4/8/PPP1PPPP/RNBQKB1R w KQkq - 0 4",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkbnr/rppppp1p/6p1/P7/3P3P/8/P1P1PPP1/RNBQKBNR w KQk - 1 6",
+        "move": "h4h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1q1b1r/pp1kpppp/8/2pN4/PP1P2n1/7b/2PQPP1P/R1B1KB1R b KQ - 0 8",
+        "move": "h3f1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/p2pppp1/n6p/1pp2P2/1P4P1/8/P1PPP2P/RNBQKBNR w KQkq - 0 5",
+        "move": "f1g2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pppp1/2p4p/8/1P3P2/8/P1PPP1PP/RNBQKBNR w KQkq - 0 3",
+        "move": "a2a3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppppp1pp/2n2p2/8/P7/R7/1PPPPPPP/1NBQKBNR w Kkq - 2 3",
+        "move": "a3a1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1k2r/1pp2ppp/np2p2n/3p2P1/1b2P2q/8/P1PP1P1P/R1BQKBNR b KQkq - 0 8",
+        "move": "h4e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/1ppp1pbp/8/p3p1p1/1P4P1/2NP3P/P1P1PP2/R1BQKBNR w KQkq - 1 6",
+        "move": "b4b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbn1/p1ppppp1/8/1p6/5N1r/5P2/PPPPP1PP/RNBQKB1R w KQq - 2 6",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/1p1ppppp/1qp5/p7/P6P/5N2/1PPPPPP1/RNBQKB1R w KQkq - 2 4",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/1ppppp2/p5p1/7p/2P4P/P2N3R/1P1PPPP1/RNBQKB2 w Qkq - 2 8",
+        "move": "b1c3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/p1pp2pp/np2pp2/8/P6P/R4N2/1PPPPPP1/1NBQKB1R w Kkq - 0 5",
+        "move": "a3a1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/5P2/7P/PPPPP1P1/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/pp1pqppp/2p5/4p3/8/3P4/PPP1PPPP/RNBQKBNR w KQkq - 2 4",
+        "move": "g2g3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/2p1ppp1/p2p3p/1p6/2P1P1P1/P6N/1P1P1P1P/RNBQKB1R b KQkq - 0 5",
+        "move": "b5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pp1pp1Qp/n4p2/2p5/8/2N1P3/PPPP1PPP/R1B1KBNR w KQ - 3 6",
+        "move": "g7h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/8/3P1p2/8/1P6/P1P1PPPP/RNBQKBNR b KQkq - 0 3",
+        "move": "c7c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1k1nr/p1p2p2/1pN2qp1/3pp2p/4P1P1/bP6/P1PPBP1P/RNBQK2R w KQkq - 4 8",
+        "move": "b1a3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppnpppp/8/8/3p4/P2PB3/1PP1PPPP/RN1QKBNR w KQkq - 0 4",
+        "move": "e3d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "2bqkbnr/rpppp1pp/p7/5p2/PnP5/R4NP1/1P1PPP1P/1NBQKB1R w Kk - 2 6",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kbnr/ppp2ppp/3p1q2/4p3/3nP3/2B3P1/PPP1QP1P/RNK2BNR b kq - 1 8",
+        "move": "d4e2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/ppp1pppp/n2p1n2/8/8/BP1P2P1/P1P1PP1P/RN1QKBNR b KQkq - 0 4",
+        "move": "g7g6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/ppp1pppp/3p1n2/8/8/2N1P3/PPPPBPPP/1RBQK1NR b Kq - 1 4",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn2kbnr/1b1p1ppp/pp6/2p1p3/P2P3q/1P3P2/2PKP1PP/RN1Q1BNR w kq - 1 8",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/4pp1p/p1pq4/1p1p2N1/P5P1/1PNP4/2P1PP1P/R1BQKB1R w KQkq - 1 8",
+        "move": "a4b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp2/6p1/7p/P2P4/8/1PP1PPPP/RNBQKBNR w KQkq - 0 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b2bnr/pp2kppp/n1p5/3pq2P/8/N1P5/PP1QPPP1/R1B1KBNR w KQ - 0 8",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/ppppp3/6pb/5p1p/5PPP/PP2P2R/2PP4/RNBQKBN1 b Qkq - 1 7",
+        "move": "h5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/p1pbp1pp/1p6/3p1p2/2BPP1P1/8/PPP2P1P/RNBQK1NR w KQkq - 0 5",
+        "move": "c4d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/5n2/8/5PP1/8/PPPPP2P/RNBQKBNR b KQkq - 0 2",
+        "move": "f6g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq1bn1/pppppkpr/5p2/7p/4P3/6PB/PPPP1P1P/RNBQK1NR w KQ - 1 5",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/ppnppppp/2p5/8/2P5/N6N/PP1PPPPP/R1BQKB1R w KQkq - 4 4",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppp1p/1p6/6p1/2BP4/4P1P1/PPP2P1P/RNBQK1NR b KQkq - 1 4",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1ppppppp/p7/5n2/7P/2R5/PPPPPPP1/RNBQKBN1 w Qkq - 4 4",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/7p/8/3P4/N7/PPP1PPPP/R1BQKBNR b KQkq - 0 2",
+        "move": "g8f6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/pppp1p2/4p1p1/2b4p/P7/1P4P1/R1PPPP1P/1NBQKBNR w Kkq - 0 5",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp2ppp/3pp3/2P5/8/8/PP1PPPPP/RNBQKBNR w KQkq - 0 3",
+        "move": "c5d6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qk1nr/3pbppp/bp2p3/p1p5/P1P3P1/8/1P1PPP1P/RNBQKBNR w KQkq - 2 7",
+        "move": "f1g2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/p5p1/npppp3/5p1p/PP6/2P1PNPB/3P1P1P/RNBQK2R w KQkq - 0 8",
+        "move": "h3g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/pppp1p1p/8/4p1p1/Q6P/N3P3/PP1PP1P1/R1B1KBNR b KQkq - 0 6",
+        "move": "g5g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kbnr/p2pp1pp/2n5/qp3p2/2p5/2NP2P1/PPP1PP1P/R1BQKBNR w Qkq - 0 8",
+        "move": "d3c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b2qnr/pp1Pkppp/n7/4p3/5B2/b6N/PPP1PPPP/RN1QKB1R w KQ - 3 7",
+        "move": "f4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p3p2p/2p5/1p1p1pp1/4P1PP/P7/1PPPNP2/RNBQKB1R w KQkq - 0 6",
+        "move": "g4f5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/ppppnp1p/8/4p1p1/1P6/7P/PBPPPPP1/RN1QKBNR w KQkq - 0 4",
+        "move": "b2e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1k1nr/1p1pbppp/Bq2p3/2p5/3N4/4P1Q1/PPPP1PPP/RNB1K2R b KQkq - 0 6",
+        "move": "b8a6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbk1b1r/pp1pnppp/2q1p3/2p5/2P3P1/P3PN2/1PQP1PBP/RNB1K2R b KQ - 2 7",
+        "move": "d8e8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1k1nr/p2pp1bp/1q6/1pp2pp1/P7/1PP2PPN/3PPK1P/RNBQ1B1R b kq - 2 7",
+        "move": "g5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/2pppppp/p7/1p6/4P3/8/PPPPKPPP/RNBQ1BNR w kq - 0 3",
+        "move": "e2e1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/8/1N6/3P4/6P1/nPP1PP1P/R1BQKBNR b KQkq - 0 4",
+        "move": "a2c1",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqk1nr/ppp2pbp/4p3/3p2p1/1n3P1P/3PBN2/PPP1P1P1/R2QKBNR w KQkq - 2 7",
+        "move": "h4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbr1/p1pppp1p/3n4/1p4p1/3P2P1/P1B2N1P/1PP1PP2/RN1QKB1R w KQq - 0 8",
+        "move": "d1d3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq1bn1/p1pp1k2/p3pppr/7P/8/N1P5/1P1PPP1P/R1BQKBNR b KQ - 0 8",
+        "move": "h6h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/ppp1ppp1/7p/1q1p4/4P2P/PP3N2/N1PP1PP1/R1BQKB1R b KQkq - 2 7",
+        "move": "b5b6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1pppp1pp/8/p4p2/P4P2/6P1/1PPPP2P/RNBQKBNR b KQkq - 0 3",
+        "move": "d7d6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkbnr/3pp1p1/rN6/p1p2p1p/Pp6/5P2/RPPPPKPP/2BQ1BNR w k - 0 8",
+        "move": "b6c8",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp1pp1pp/2p4n/5p2/2P4P/4PN2/PP1P1PP1/RNBQKB1R b KQkq - 0 4",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/5P2/3P4/PPP1P1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/2pppp1p/8/pB2P1p1/8/2N5/PPPP1PPP/R1BQK1NR w KQkq - 0 5",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1ppp1ppp/8/p3p3/2P1P3/7P/PP1P1PP1/RNBQKBNR b KQkq - 0 3",
+        "move": "f8c5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppp1ppp/4p3/8/P7/2Pn3N/1P1PPPPP/RNBQKB1R w KQkq - 3 5",
+        "move": "e2d3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/pp2pp2/2pp2pp/8/P4Pb1/RQP4P/1P1PP1P1/1NB1KBNR b Kkq - 3 6",
+        "move": "g4c8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1pp2ppp/3pp3/p7/1P5P/5P2/P1PPP1P1/RNBQKBNR w KQkq - 0 4",
+        "move": "b4b5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/pppbpppp/3p4/8/1n4P1/2N1P3/PPPP1P1P/R1BQKBNR b KQkq - 0 5",
+        "move": "h7h5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq1b1r/p1pp1pp1/1p1k3n/4pPBp/3P4/8/PPP1P1PP/RN1QKBNR w KQ - 4 8",
+        "move": "g5d8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bq1b1r/ppp1pk1p/n2p1n2/5p1P/1P3p2/N7/P1PPPKP1/1RB1QBNR b - - 0 8",
+        "move": "f6e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/1pp1pppp/3p3n/p7/8/NP6/P1PPPPPP/R1BQKBNR b KQkq - 1 4",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppppppp1/7p/8/Pn3P2/6P1/1PPPP2P/RNBQKBNR w KQkq - 0 4",
+        "move": "c2c3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/ppp4p/3ppp1b/6p1/1PB1P3/2N4P/P1PP1PP1/R1BQK1NR w KQkq - 1 6",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/7p/8/3P4/7P/PPP1PPP1/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/2ppp1p1/1p3p2/p4P2/P3P2p/7P/1PPP2P1/RNBQKBNR w KQkq - 0 6",
+        "move": "f1e2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qk1nr/pb1pp2p/1p3ppb/2p5/2P3P1/PPN1P2P/R2P1P2/2BQKBNR b Kkq - 2 8",
+        "move": "b7h1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1p1pp1pp/p7/2p2p2/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 0 4",
+        "move": "c2c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pp1pp1p1/n1p2p1p/8/P4P2/R7/1PPPP1PP/1NBQKBNR b Kkq - 0 5",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqk1nr/1pppppb1/r6p/6p1/pPPP4/8/PB1KPPPP/RN1Q1BNR w k - 2 7",
+        "move": "d2e1",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1rbqkbnr/3ppppp/np6/p1p1P3/2P2P2/6P1/PP1PQ2P/RNB1KBNR b KQk - 2 6",
+        "move": "a6b4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn2kbnr/ppq1pppp/8/2pp4/PP4b1/N2P3P/2P1PPP1/R1BQKBNR w KQkq - 1 6",
+        "move": "h3g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/2n5/8/8/1P6/PBPPPPPP/RN1QKBNR b KQkq - 2 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/p1pppp1p/b1n3p1/1p6/P4P2/2P3P1/1P1PP2P/RNBQKBNR b KQkq - 0 5",
+        "move": "b5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/p1pppp1p/8/1p3Pp1/8/N3n2P/PPPPP3/R1BQKBNR w KQkq - 2 6",
+        "move": "d2e3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/2pppp2/8/pp2P1pp/8/6PP/PPPP1P2/RNBQKBNR w KQkq - 0 5",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/8/7p/1P6/6P1/P1PPPP1P/RNBQKBNR b KQkq - 0 2",
+        "move": "h5h4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/3p4/8/5P2/1P6/P1PPP1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1pp1p1p1/3p4/p3Pp2/5P1p/2N4N/PPPP2PP/R1BQKB1R b KQkq - 0 6",
+        "move": "d6e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn2k1nr/pppbqp1p/3pp2b/6p1/P6N/NP6/2PPPPPP/1RBQKBR1 b kq - 7 7",
+        "move": "g5h4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppppp2/5np1/8/4P2p/1P4PN/P1PP1P1P/RNBQKBR1 b Qkq - 0 5",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pp1pp2p/n7/2p2p2/5Pp1/P1N3PP/1PPPP3/R1BQKBNR b KQkq - 0 7",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbk2nr/ppppqp1p/8/4p1p1/Pb6/2P2PP1/1P1PPK1P/RNBQ1BNR w - - 3 6",
+        "move": "c3b4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqk1nr/ppp1p2p/n5pb/3p1p2/4PQ2/3P2PN/PPP2P1P/RNB1KB1R w KQkq - 4 7",
+        "move": "f4e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/ppp1pp2/3p4/6pp/3b2P1/1P3P2/P1P1PK1P/RNBQ1BNR w kq - 0 6",
+        "move": "d1d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1ppp1p2/5npp/p3p3/P2PP3/2P2N2/1P3PPP/RNBQKB1R w KQkq - 0 6",
+        "move": "d4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1rbqkbnr/1pp1p1p1/3p1p1p/p3B3/1n6/P1PP4/1PQKPPPP/RN3BNR b k - 3 8",
+        "move": "b4c2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqkbnr/1pp1pppp/r6B/p2p4/7N/P2P4/1PP1PPPP/RN1QKB1R b KQk - 0 6",
+        "move": "a6h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb2bnr/p1pqpkp1/7p/1p2pP2/6B1/1P6/P1PPPP1P/RNBQK2R w KQ - 2 8",
+        "move": "g4h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1pppn1p1/8/p2Ppp1p/8/P1N5/1PP1PPPP/R1BQKBNR w Kkq - 0 7",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pp1p1p1p/2n5/2p1p1p1/P4N2/1P3P2/2PPP1PP/RNBQKB1R b KQkq - 2 5",
+        "move": "g5f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1p3p/2p2p2/4p1p1/P1P5/1P6/R2PPPPP/1NBQKBNR w Kkq - 0 5",
+        "move": "e2e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/8/p7/8/6PN/PPPPPP1P/RNBQKB1R b KQkq - 1 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkb1r/ppp1pnpp/4b3/5p2/4p2P/1PNP2P1/P1P1KP2/R1BQ1BNR b kq - 0 7",
+        "move": "e4d3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1p1pp1/4p2p/3P4/2p5/N6N/PPPKPPPP/R1BQ1B1R b kq - 1 5",
+        "move": "d8a5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqk1nr/ppp4p/3ppppb/2n3Q1/8/2PPP1P1/PP3P1P/RNB1KBNR w KQkq - 0 8",
+        "move": "g5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/p2p1ppp/1p3q2/2p5/3Pp1P1/8/PPP1PP1P/RNBQKBNR w KQkq - 2 6",
+        "move": "d4d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1p1ppp/2p1p3/8/2P5/3P3P/PP2PPP1/RNBQKBNR b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/2p2ppp/1pn5/p2pp3/4P3/2NP1P1P/PPPB2P1/R2QKBNR b KQkq - 0 6",
+        "move": "d8h4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pp1p/3p4/6p1/1P6/2N2N2/P1PPPPPP/R1BQKB1R b KQkq - 0 3",
+        "move": "g5g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "c1b2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/pppppp1p/6pb/8/P2P4/2N5/1PP1PPPP/R1BQKBNR b KQkq - 0 3",
+        "move": "h6c1",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/1ppqpp1p/8/p2p2p1/7P/2P2N2/PP1PPPPR/RNBQKB2 b Qkq - 1 5",
+        "move": "g5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/p1ppp1p1/1p6/5p1p/1Q5P/1nP3P1/PP1PPP2/RNB1KBNR b KQkq - 1 8",
+        "move": "b3a1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/5P2/P5P1/1PPPP2P/RNBQKBNR w KQkq - 1 4",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/8/1p6/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 1 2",
+        "move": "b5c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1pppppp1/7p/p7/3PP3/7N/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/pppp1pp1/n4n2/4p2p/2P3PP/8/PP1PPPB1/RNBQK1NR w KQkq - 0 5",
+        "move": "g4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/4P3/P7/1PPP1PPP/RNBQKBNR b KQkq - 0 2",
+        "move": "f5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn2kbnr/3qpppp/pp1p4/2p2b2/Q6P/N1P4R/PP1PPPP1/R1B1KBN1 b Qkq - 3 7",
+        "move": "d7a4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/8/p7/8/3P4/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kbnr/pp1ppppp/n2q4/2p5/4P2P/8/PPPP1PP1/RNB1KBNR b KQkq - 0 5",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp2pp/5p2/4p3/5P2/2P2N2/PP1PP1PP/RNBQKB1R b KQkq - 0 3",
+        "move": "e5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/Q7/2P5/PP1PPPPP/RNB1KBNR b KQkq - 1 2",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/1pppp2p/8/p5P1/5p2/BP1P3N/P1P1PnPR/RN1QKB2 w Qkq - 0 8",
+        "move": "h3f2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/5p2/8/8/4P2N/PPPP1PPP/RNBQKB1R b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/ppp1pppp/7n/3p4/8/N4P2/PPPPP1PP/R1BQKBNR w KQkq - 0 3",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/p1ppppp1/np6/7p/3P3P/3bB3/PP2PPP1/RN2KBNR w KQkq - 1 8",
+        "move": "e2d3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbn1/2p1pp1r/pp1p3p/8/3PP1Qp/P6R/1PP2PP1/RNB1KBN1 w Qq - 2 8",
+        "move": "g4g8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/8/6p1/8/2N5/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/2p5/8/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/6p1/8/P6P/8/1PPPPPP1/RNBQKBNR b KQkq - 0 2",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppp1p/p7/8/5PpP/7N/PPPPP1P1/RNBQKB1R w KQkq - 0 5",
+        "move": "h3f2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1rbqkbn1/ppppppp1/n7/5r2/Q5Pp/2P5/PP1PPP1P/RNB1KBNR w KQ - 3 8",
+        "move": "g4f5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/p2ppppp/1pp4n/8/3P3P/2P5/PP1BPPP1/RN1QKBNR b KQkq - 1 4",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1p1pp2p/5p1B/p1p3p1/2PP1P2/8/PP2P1PP/RN1QKBNR b KQkq - 0 5",
+        "move": "f8h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/p2p1p1p/npp5/4p1p1/1P1N4/P1P5/3PPPPP/RNBQKB1R w KQkq - 0 6",
+        "move": "d4f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/p1pppppp/7n/1B6/8/4PNP1/PPPP1P1P/RNBQK2R b KQkq - 0 4",
+        "move": "g7g6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pp2pppp/3p3B/2p5/P2P4/5P2/1PP1P1PP/RN1QKBNR b KQkq - 0 4",
+        "move": "g7h6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r2qkbnr/1p1bpppp/n7/pQpp4/P3P3/5P1P/1PPP2P1/RNB1KBNR w KQkq - 4 7",
+        "move": "b5e2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp1ppppp/7n/2p5/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 1 3",
+        "move": "e2e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nb1kbnr/rp1p1p1p/p3p1p1/2p3q1/5PP1/2N5/PPPPP2P/R1BQKBNR b KQk - 0 7",
+        "move": "g5h4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppppppp1/n6p/8/8/1QPP4/PP2PPPP/RNB1KBNR b KQkq - 0 3",
+        "move": "g8f6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1pppnp2/7p/p3p1p1/P1P5/2N3PP/1P1PPP2/R1BQKBNR w KQkq - 2 6",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbr1/pppppppp/2n5/5n2/1P6/2N5/P1PPPPPP/R1BQKBNR w KQq - 7 5",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1k1nr/1ppp1p1p/2nb1qp1/p3p3/2PPP3/NP6/PB3PPP/R2QKBNR w KQkq - 1 7",
+        "move": "c4c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/p1ppp1pp/n7/1p3p2/8/2PPBN2/PP2PPPP/RN1QKB1R b KQkq - 0 4",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbr1/pp1pppp1/2p4P/q7/3n3P/2N2N2/PPPPPPR1/R1BQKB2 b Qq - 0 8",
+        "move": "d4f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r2qkbnr/pbpppppp/n7/1p6/2P2P2/8/PP1PP1PP/RNBQKBNR w KQkq - 1 4",
+        "move": "c4b5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppp1p/8/2p3p1/P7/8/1PPPPPPP/RNBQKBNR w KQkq - 0 3",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp2/7p/6p1/2PP4/6P1/PP2PP1P/RNBQKBNR b KQkq - 0 3",
+        "move": "f8g7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bq1knr/p1pp1ppp/n3p3/bB6/8/NP2PQ1N/P1PP1PPP/R1B1K2R w KQ - 1 8",
+        "move": "f3a8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppp1p/p5p1/8/5P2/2P3P1/PP1PP2P/RNBQKBNR b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqk1n1/rppp1p1r/6p1/pBb1p2p/3PPP2/P6P/1PP1K1PR/RNBQ2N1 b - - 4 8",
+        "move": "e5d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/ppp1ppp1/2qp3p/2P5/8/8/PP1PPPPP/RNBQKBNR w KQkq - 2 5",
+        "move": "c5d6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/2pnpp2/p5p1/1p1p3p/1P1P1P2/7P/P1P1P1PR/RNBQKBN1 b Qkq - 1 8",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/pp1npp1p/6p1/2pp4/6nP/PP3P2/1BPPP3/RN1QKBNR w KQkq - 0 8",
+        "move": "b2h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/6p1/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 0 2",
+        "move": "f8g7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/P7/3P4/1PP1PPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "b8c6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/3p4/8/PP6/8/2PPPPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/5p2/8/7P/8/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pp1ppppp/2p5/n7/1P6/2P5/P1QPPPPP/RNBK1BNR b kq - 0 4",
+        "move": "a5c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbq1b1r/rpp1pkpp/p6n/3p1p2/2B5/2N1P3/PPPPQPPP/R1B1K1NR b - - 3 7",
+        "move": "d5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/1pp1p1p1/2n5/p2p1p1p/8/1PPP1PP1/P2NP2P/R1BQKBNR b KQkq - 0 6",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbr1/pppp1ppp/4p3/3n4/1n6/BP2PPPP/P1PPN3/RN1QKB1R b KQq - 0 7",
+        "move": "d8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bq1bnr/pppkp1pp/8/3p1p2/1P3PP1/2N1P2P/1PPP4/R1BQKBNR b KQ - 2 7",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p2pppp1/7B/1p6/3p4/4PN1P/PPP2PP1/RN1QKBR1 b Qkq - 0 6",
+        "move": "h8h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pp1p/8/3p2p1/8/1P3P2/P1PPP1PP/RNBQKBNR w KQkq - 0 3",
+        "move": "e2e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/2N5/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1q1bnr/p1pkp1pp/bp3p2/3pP3/2B5/1PN2Q2/P1PP1PPP/R1B1K1NR b KQ - 0 6",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkbnr/rpppp1pp/8/p7/PPP5/1QN2p2/3PPPPP/R1B1KBNR w KQk - 2 6",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pp1pp1pp/7n/2p2p1P/3P4/2P2N2/PP2PPP1/RNBQKB1R w KQkq - 1 6",
+        "move": "d4d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq1knr/1ppp2pp/p2b4/4pp2/1P2N3/B4P2/P1PPP1PP/RQ2KBNR w KQ - 5 7",
+        "move": "e4d6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/ppppnpp1/7p/4p3/5N2/3P4/PPPQPPPP/RNB1KB1R b KQkq - 3 4",
+        "move": "e5f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/8/7p/P6P/3P2P1/1PP1PP2/RNBQKBNR b KQkq - 0 4",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/1pp1ppp1/n2p4/p4P1p/4P3/3P3P/PPP3P1/RNBQKBNR w KQkq - 0 6",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/ppp1p1pp/3pb3/5p2/2P5/PP4P1/3PPP1P/RNBQKBNR b KQkq - 0 4",
+        "move": "e6d7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/1ppp1ppp/8/p3p3/7P/P1N5/RPPPPqP1/2BQKBNR w Kkq - 0 5",
+        "move": "e1f2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/5n2/8/P7/3P4/1PP1PPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkb1r/p2ppppp/1pp4n/8/P1b5/1PN4N/2PPPPPP/R1BQKBR1 w Qkq - 3 6",
+        "move": "b3c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1rbqkb1r/ppppp2p/4P2n/5pp1/Pn3P2/8/1PPPB1PP/RNBQK1NR b KQk - 0 7",
+        "move": "g5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kb1r/pppp1p1p/4p1pn/8/3P2Pq/2P5/PP2PP1P/RNBQKBNR b KQkq - 1 5",
+        "move": "h6g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/8/6p1/8/P1P5/1P1PPPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/7p/8/8/1P5P/P1PPPPP1/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/2p5/8/8/3P4/PPPNPPPP/R1BQKBNR b KQkq - 1 2",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r2q1bnr/pp2kppp/n1pp4/8/1P1Pp3/P3P2N/2PBNPPP/R2QKB1R b KQ - 0 8",
+        "move": "e7e8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/5p2/8/8/1P6/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pp1ppp2/n1p3p1/7p/4P2P/N2P1N2/PPP2PP1/R1BQKB1R b KQkq - 1 5",
+        "move": "f8g7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk2r/pp1pn1pp/8/2p1pP2/8/7P/PPPPPK2/RNBQ1BNR w kq - 0 7",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1p1ppp1p/p1p3pB/8/1P1P4/8/P1P1PPPP/RN1QKBNR w KQkq - 0 4",
+        "move": "h6f8",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp3p2/7p/2ppp2Q/6p1/1P2PN1P/P1PP1PP1/RNB1KB1R b KQkq - 0 7",
+        "move": "g4f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/ppp1pppp/n3b3/3p4/4P3/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 3 4",
+        "move": "f1a6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1ppp1ppp/p4n2/4p2P/P7/8/1PPPPPP1/RNBQKBNR w KQkq - 0 4",
+        "move": "h5h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/pppp1ppp/8/4p3/1b2P3/2P4N/PP1P1PPP/RNBQKB1R b KQkq - 0 3",
+        "move": "b4e7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/7P/PPPPPPP1/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/1pp1p1pp/p4p2/3p4/2P2P2/3P2P1/PP2P1bP/RNBQKBNR w KQkq - 1 6",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pp1pp2p/2p2n2/5pp1/4PB2/3P4/PPP1QPPP/RN2KBNR w KQkq - 0 5",
+        "move": "f4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r3kbnr/1pp1pppp/8/p1npq3/1P1PP3/5PPb/P1PK3P/RNBQ1BNR b kq - 0 8",
+        "move": "e5d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp2pppp/8/P1pp4/8/6nN/1PPPPPPP/RNBQKB1R w KQkq - 0 6",
+        "move": "h2g3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/1p1p1p1p/4p1p1/qpp5/5P2/2P5/PP1PPNPP/R1BQKB1R w KQkq - 2 7",
+        "move": "b2b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/8/7p/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/1pp1pppp/p2p4/8/Q1P1P1b1/5P2/PP1P2PP/RNB1KBNR b KQkq - 1 4",
+        "move": "g4d7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/8/1p6/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+        "move": "a3b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkbnr/2p1pppp/rp6/p2p2B1/2P4P/3P4/PP2PPP1/RN1QKBNR w KQk - 0 6",
+        "move": "c4d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/5p2/8/7P/8/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/2pnpp1p/6pB/pp1p4/PPPP4/8/4PPPP/RN1QKBNR w KQkq - 2 6",
+        "move": "h6f8",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/8/2P2P2/PP1PP1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/3pp1pp/pp3p1n/2pN4/PP6/5N1P/2PPPPP1/R1BQKB1R b KQkq - 1 6",
+        "move": "c8b7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbn1/2p1pppr/1p1p3p/pP6/7P/2P4R/P2PPPP1/RNBQKBN1 w Qq - 2 6",
+        "move": "h3h1",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppp1ppp/7n/4p3/4P3/5P2/PPPP2PP/RNBQKBNR b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kb1r/p1ppqp1p/2n3pn/1p2p3/2P4P/3PPN2/PP2QPP1/RNBK1B1R b kq - 5 7",
+        "move": "b5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqk2r/1ppp1pbp/r4n2/4p1p1/p7/P2P1P2/1PP1PKPP/RNBQ1B1R b k - 1 8",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nb1kb1r/r2p1ppp/p3p2B/1pp5/3P3q/P6P/1PP1PPP1/RN1QKBNR w KQk - 1 8",
+        "move": "h6e3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/ppppp1pp/7n/5p2/6P1/2NP4/PPP1PP1P/R1BQKBNR b KQkq - 2 3",
+        "move": "h6g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp1ppppp/2p2n2/8/2P3P1/8/PP1PPP1P/RNBQKBNR b KQkq - 0 3",
+        "move": "f6g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/1p1pp3/n1p3pp/pN3p1P/6P1/3P1N2/PPP1PP2/R1BQKB1R b KQkq - 0 7",
+        "move": "c6b5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/8/p7/5P2/P7/1PPPP1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1pppppp1/5n1p/p7/2PP1P2/8/PP2P1PP/RNBQKBNR b KQkq - 0 4",
+        "move": "e7e6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppppp1pp/2n5/5p2/8/8/PPPPPPPP/RNBQKBNR w KQkq - 2 3",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbn1/p2ppp1r/1p5p/2p3p1/P4P2/7P/1PPPPKP1/RNBQ1BNR w q - 1 6",
+        "move": "d2d3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppp1N2/4p1p1/3P3p/2n5/1NP5/PP2PPPP/R1BQKB1R b KQkq - 1 8",
+        "move": "e8f7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbn1/1pppppp1/2n5/p6Q/1P5p/N3P1PN/P1PP1P1P/R1B1KB1R b KQq - 0 6",
+        "move": "g8f6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p2pp2p/6p1/1pp2p2/7P/NP6/PBPPPPP1/R2QKBNR w KQkq - 0 5",
+        "move": "b2h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nrqkb1r/ppp1pppp/7n/3p4/P2P4/2PR4/1P2PPbP/1NBQKBNR b Kk - 2 8",
+        "move": "g2h1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/1p1pp1pp/p7/2p5/P2P1p2/4Q2P/1P1PPPP1/RNB1KBNR b KQkq - 0 8",
+        "move": "f4e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1rbqkbnr/p1pppp1p/1p4p1/4n3/P1N3P1/7P/1PPPPPB1/R1BQK1NR b KQk - 1 6",
+        "move": "e5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1k1nr/pppqppbp/6p1/8/1PNp3P/5P2/P1PPP1P1/R1BQKBNR w KQkq - 0 6",
+        "move": "a1b1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq1bnr/1ppkp1pp/8/p2p1p2/2B1P3/5P1P/PPPP2P1/RNBQK1NR w KQ - 1 5",
+        "move": "e4d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppppp1p/2n5/6p1/8/N2P3P/PPP1PPP1/R1BQKBNR b KQkq - 0 3",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "2bqk1nr/r1pp1ppp/p1n5/1p2B3/1b2P1P1/2PP4/PP3P1P/RNQK1BNR b k - 0 8",
+        "move": "c6e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/p1pp1ppp/4p3/1p6/6n1/1P2PP1P/P1PP2P1/RNBQKBNR w KQkq - 0 5",
+        "move": "h3g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/3p3B/8/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+        "move": "g8h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/8/2N1P3/PPPP1PPP/R1BQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1pp1/7p/4p3/3P4/1P6/P1PNPPPP/R1BQKBNR b KQkq - 1 3",
+        "move": "e5d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/1pppq2p/6p1/p3ppN1/1P6/P1P5/1B1PPPPP/RN1QKB1R b KQkq - 1 6",
+        "move": "e7g5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/pppp1p1p/4p3/5npQ/P3P2P/6PN/1PPP1P2/RNB1KB1R b KQq - 1 6",
+        "move": "f5d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/ppp1ppp1/n7/3p3p/3P4/PP6/2PKPPPP/RNB1QBNR b kq - 1 5",
+        "move": "c7c5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bq1bnr/p1pnpkpp/3p1p2/P7/Rp6/N4N1P/1PPPPPP1/2BQKB1R w K - 1 7",
+        "move": "a4b4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pp2nppp/8/3p4/1p1Pp3/8/PBPKPPPP/RN1Q1BNR w kq - 0 7",
+        "move": "e2e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/pppppppp/7n/8/P7/2N2P2/1PPPP1PP/R1BQKBNR b KQq - 0 3",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p3pppp/8/1ppp4/6P1/1P1P4/P1PKPP1P/RNBQ1BNR b kq - 1 4",
+        "move": "c8g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppp1pp1/5n1p/4p3/3P4/4P1P1/PPP2P1P/RNBQKBNR w KQkq - 0 4",
+        "move": "d4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "2bqkb1r/rp1pnpp1/n6p/p1p1p1N1/3P2P1/NP6/P1PBPP1P/R2QKB1R b KQk - 0 8",
+        "move": "h6g5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/1bppp1p1/p4p2/Pp5p/1n5P/5P2/RPPPPKP1/1NBQ1BNR w kq - 1 8",
+        "move": "a2a1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppppnpp/8/4Np2/P7/8/1PPPPPPP/RNBQKB1R w KQkq - 2 4",
+        "move": "e5f7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1ppp1/7p/3p4/P7/7P/1PPPPPP1/RNBQKBNR w KQkq - 0 3",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qk1nr/pb1pbppp/4p3/2p5/1p5P/1PN3P1/P1PPPP2/R1BQKBNR b KQkq - 0 7",
+        "move": "b7h1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1rb1kbnr/pppp1ppp/n3pq2/8/4P3/2PB4/PP1P1PPP/RNBQK1NR b k - 2 5",
+        "move": "f6g6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqk1nr/pp1pppbp/n7/P1p3p1/2P5/1R5P/1P1PPPP1/1NBQKBNR b Kkq - 1 6",
+        "move": "d8a5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/pp3pp1/2p1p2p/3p1q2/3NP3/1P1Q1P2/P1PP2PP/RNB1KB1R b KQkq - 1 7",
+        "move": "f5f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qk1nr/1p2pp1p/6pb/pNpp4/5Pb1/P4N1P/1PPPPK2/R1BQ1B1R b kq - 1 8",
+        "move": "g4f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/1ppp1ppp/p4n2/4p2Q/8/4P3/PPPP1PPP/RNBK1BNR w kq - 0 4",
+        "move": "h5e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1p1pp/3p4/5p2/P4P2/5N2/1PPPP1PP/RNBQKB1R b KQkq - 1 3",
+        "move": "g7g6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kb1r/pp1ppp1n/1qp3pp/6B1/1PP5/P2P1N2/4PPPP/RN1QKB1R b KQkq - 2 7",
+        "move": "h7g5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppp2/6pp/1p6/1P3P2/6P1/P1PPP2P/RNBQKBNR w KQkq - 0 4",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1p1ppp1p/p1p3pn/7Q/2B5/4PP2/PPPP2PP/RNB1K1NR w KQkq - 0 5",
+        "move": "h5h4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/1p1pp1pp/p1p2p2/8/q3P3/2PP4/PB3PPP/RN1QKBNR w KQkq - 0 7",
+        "move": "d1a4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1pppp1pp/p7/5p2/4P3/P7/1PPPNPPP/RNBQKB1R b KQkq - 0 3",
+        "move": "f5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/1ppp2p1/5pnp/p3p2Q/3PP1PP/2N4R/PPP2P2/R1B1KBN1 b Qkq - 0 7",
+        "move": "d8e7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/pppppppp/5n2/6n1/1PP1PP2/2N5/P2PN1PP/R1BQKB1R b KQkq - 4 6",
+        "move": "g5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/7N/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "move": "c2c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p2ppp1p/1Q6/2p3p1/8/2P1P2P/PP1P1PP1/RNB1KBNR b KQkq - 2 6",
+        "move": "d8b6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/pppppp1p/6pn/8/P5P1/7N/1PPPPP1P/RNBQKB1R w KQq - 1 4",
+        "move": "g4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/2ppp3/pp3p1p/1P4p1/4PP2/8/2PP2PP/RNBQKBNR w KQkq - 0 8",
+        "move": "d1h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/8/8/1P5p/B7/P1PPPPP1/RN1QKBNR b KQkq - 1 3",
+        "move": "f8g7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kbnr/2qpp1pp/2n2p2/ppp3P1/P1P5/1P3N2/2QPPP1P/RNB1KB1R b KQkq - 1 7",
+        "move": "b5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/5p2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/p1pppppp/bp6/8/4N3/2P5/PP1PPPPP/R1BQKBNR b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/p1pppppp/5n2/1p6/3P4/2P1P3/PP3PPP/RNBQKBNR b KQkq - 0 5",
+        "move": "a7a6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/5n2/8/P7/8/1PPPPPPP/RNBQKBNR w KQkq - 1 2",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/p1ppppp1/7n/1p5p/4P3/3B3P/PPPP1PP1/RNBQK1NR w KQkq - 2 4",
+        "move": "d3b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1p2ppp/8/1p1pp3/5P2/P3PN2/1PPP2PP/RNBQKB1R b KQkq - 1 4",
+        "move": "e5e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp2pppp/2pp4/8/8/4P2P/PPPP1PP1/RNBQKBNR w KQkq - 0 3",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/2n5/8/3P4/6P1/PPP1PP1P/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/p1ppppp1/1p5p/8/3P1P2/1P1Qn3/P1PBP1PP/RN2KBNR w KQkq - 0 6",
+        "move": "d3e3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/p1p4p/np2p3/3p1pp1/6P1/1P1PP3/P1PQ1P1P/RNB1K1NR w KQkq - 0 8",
+        "move": "c1b2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kb1r/1pq1ppp1/p1np1n1B/2p4p/4N2P/3P2PB/PPP1PP2/2RQK1NR b Kkq - 1 8",
+        "move": "f6e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppp2Npp/3p4/8/8/5Q2/PPPn1PPP/RNB1KB1R b KQkq - 0 7",
+        "move": "d2f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/2pnppp1/p2pb2p/5Q2/2B5/PP2P3/2PP1PPP/RNB1K1NR b KQkq - 1 8",
+        "move": "e6f5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppppp1pp/5p2/6B1/3P4/1nK2P2/PPP1P1PP/RN1Q1BNR b kq - 6 5",
+        "move": "b3a1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kbnr/p2ppp1p/n1p5/1P4p1/3P1P2/q3P3/PP1B2PP/R2QKBNR w KQkq - 0 8",
+        "move": "b2a3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbr1/ppnpppp1/5n1p/2p5/4P3/3P2PP/PPP2P2/RNBQKBNR w KQq - 1 7",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqk1nr/pppp1ppp/n7/2P1p3/8/b3P3/PP1PKPPP/RNBQ1B1R w kq - 1 7",
+        "move": "b1a3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk2r/3pbppp/p4n2/1pp1p3/2N2PPP/5N2/PPPPP1B1/R1BQK2R b KQkq - 1 7",
+        "move": "b5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkN1r/p1ppp1p1/1p3n1p/5p2/5P2/6P1/PPPPP2P/RNBQKB1R b KQ - 0 7",
+        "move": "h8f8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/p1p1pp1p/1p1p4/6p1/1P1P1Pb1/4P2N/P1P3PP/RNBQKB1R b KQkq - 0 5",
+        "move": "g4d1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1ppp1pp/8/1p3p2/2P2P2/8/PP1PPKPP/RNBQ1BNR b kq - 0 3",
+        "move": "b5c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/n7/8/8/N6P/PPPPPPP1/R1BQKBNR b KQkq - 2 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/ppp1pppp/3p3n/8/6P1/4P2P/PPPP1P2/RNBQKBNR b KQkq - 0 3",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbn1/pppp2pr/n3pp2/7p/2P5/P3PPPN/1P1P3P/RNBQKB1R b KQq - 0 6",
+        "move": "h7h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq2nr/p1ppkppp/4p3/2b5/p3PP2/N7/1PPP2PP/R1BQKBNR b KQ - 0 6",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/3p4/8/P6P/8/1PPPPPP1/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1rbqkbnr/pppp1ppp/8/1Bn1p3/6P1/4P2P/PPPP1P2/RNBQK1NR w KQk - 0 5",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/6P1/PPPPPP1P/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkbnr/1pp1ppp1/7p/3p4/r1P5/N4P1P/PP1PP1P1/R1B1KBNR w KQk - 0 7",
+        "move": "c4d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbr1/pp1pp1pp/n1p2n2/5p2/P5P1/3P3N/1PPBPP1P/RN1QKBR1 b Qq - 0 6",
+        "move": "f5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/p1p2ppp/4pn2/1N6/2Pp3P/3P2P1/PP2PP2/R1BQKBNR b KQkq - 0 6",
+        "move": "e6e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/p2ppppp/n1p5/1p6/3P4/1P4P1/P1P1PP1P/RNBQKBNR w KQkq - 0 4",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1ppp1ppp/8/p2np3/3P3P/5P2/PPPKP1P1/RNBQ1BNR w kq - 0 5",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppnpp1p/3p2p1/8/1P6/5P1N/PBPPP1PP/RN1QKBR1 w Qkq - 0 6",
+        "move": "b2h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1p1ppp1p/6p1/p1p5/1P2P3/7N/P1PP1PPP/RNBQKB1R w KQkq - 0 4",
+        "move": "b4c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pp1pp/5p2/2p5/2P2P2/8/PP1PP1PP/RNBQKBNR w KQkq - 0 3",
+        "move": "e2e3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/8/8/1P1n3P/N7/P1PPPPP1/R1BQKBNR b KQkq - 0 3",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/1p1ppp2/7n/p1pPn1pp/P7/N3P1PB/1PP2P1P/R1BQK1NR w KQkq - 0 8",
+        "move": "d1h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1p1ppppp/p1p5/8/1P2P1P1/8/P1PP1P1P/RNBQKBNR b KQkq - 0 3",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1p2p/3p1pp1/8/P4P2/R7/1PPPP1PP/1NBQKBNR w Kkq - 0 4",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r2qkbnr/pp2p1p1/2n2p1p/2p2b2/2PPp2P/8/PP1BPPPR/R2QKBN1 w Qkq - 1 8",
+        "move": "d4d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/p1p1pppp/1p2b3/3p4/8/3BP1P1/PPPP1P1P/RNBQK1NR w KQkq - 1 4",
+        "move": "d3f1",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1pp1/7p/4p3/P7/2N5/1PPPPPPP/R1BQKBNR w KQkq - 0 3",
+        "move": "g1f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qk1nr/1pp1p1bp/p5p1/3p1b2/2N2p2/1P3P1P/P1PPP1P1/R1BQKBNR w KQkq - 1 8",
+        "move": "c1b2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/p2ppppp/np6/2p5/P1P5/7N/1P1PPPPP/RNBQKB1R w KQkq - 1 4",
+        "move": "b1c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqk2r/pppp1ppp/2n1p2n/8/3P1P2/b7/1PP1PKPP/RNBQ1BNR w kq - 0 5",
+        "move": "b1a3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p5pp/3ppp2/1pp5/5N2/7N/PPPPPPPP/1RBQKB1R w Kkq - 0 6",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/1p1pp2p/5pp1/p7/2pB3P/3P2q1/PPP1PPP1/RN1QKBNR w KQkq - 2 8",
+        "move": "f2g3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkb1r/p1pppp1p/b5pn/8/Pp1P3P/R6N/1PP1PPP1/1NBQKB1R w Kkq - 0 6",
+        "move": "a3f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/pp1bppp1/2p5/3p3p/P2B3P/NP6/R1PPPPP1/3QKBNR w Kkq - 4 8",
+        "move": "e2e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/pppppNpp/8/8/2P1n2P/8/PP1PPPP1/RNBQKB1R w KQq - 1 6",
+        "move": "f7d8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/2p5/8/8/5P2/PPPPPKPP/RNBQ1BNR b kq - 1 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1ppp1pp/1p6/5p2/2P2P2/8/PP1PP1PP/RNBQKBNR w KQkq - 0 3",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1rbqkbnr/pppppppp/n7/8/4P3/2P5/PP1PBPPP/RNBQK1NR b KQk - 2 3",
+        "move": "d7d6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/6p1/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppp1ppp/n7/4p3/3P4/8/PPPBPPPP/RN1QKBNR w KQkq - 2 3",
+        "move": "d4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppp1p1p/4p3/6p1/2P3n1/5PP1/PP1PP2P/RNBQKBNR w KQkq - 0 5",
+        "move": "f3g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/7P/7R/PPPPPPP1/RNBQKBN1 b Qkq - 1 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq1bnr/p1pkpppp/3p4/1p6/1PP1Q3/N3PP2/P2P2PP/R1B1KBNR b KQ - 0 8",
+        "move": "c7c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/ppp1ppp1/2np3p/7P/1PP5/8/P2PPPP1/RNBQKBNR b KQkq - 0 4",
+        "move": "c6b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp1ppppp/2p2n2/8/8/N6N/PPPPPPPP/R1BQKB1R w KQkq - 0 3",
+        "move": "c2c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/1bppp1pp/p1n2p2/p2N4/P7/4P3/1PPP1PPP/R1BQK1NR w KQkq - 2 6",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/8/7p/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/pppppppp/2n5/8/1P1P4/B4Nn1/P1P1PPPP/RN1QKB1R w KQkq - 3 5",
+        "move": "h2g3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1r1/p1pp1p1p/3b3n/1p4p1/P3pP1P/1PPP1N2/4P1P1/RNBQKB1R b KQq - 1 8",
+        "move": "d6f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pp1pppp1/3p4/2n4p/3P4/2P5/PP2PPPP/R1BQKBNR b KQkq - 0 5",
+        "move": "c5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp5p/3pp3/P1p2pp1/7P/N4P2/1PPPP1P1/1RBQKBNR w Kkq - 0 7",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnN/1p1pp1p1/p1p5/5p1p/Pq6/8/1PPPPPPP/RNBQKBR1 b Qq - 0 7",
+        "move": "b4d6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/ppp2ppp/3pp3/8/4P3/b1N2P2/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+        "move": "b2a3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/ppp1pppp/3p3n/8/4P3/6PP/PPPP1P2/RNBQKBNR b KQkq - 0 3",
+        "move": "c7c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/B6n/8/8/4P3/PPPP1PPP/RNBQK1NR b KQkq - 2 2",
+        "move": "b8a6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/1ppppppp/5n2/p7/5PP1/8/PPPPP2P/RNBQKBNR b KQkq - 0 3",
+        "move": "f6g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/pp1p1p2/7p/2p1p1p1/Pb3PP1/2N5/2PPP2P/R1BQKBNR w KQkq - 0 6",
+        "move": "f4e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1p3/3p1ppp/8/2P5/N4P2/PP1PP1PP/R1BQKBNR w KQkq - 0 5",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn2kbnr/1pp1pppp/8/pq2B3/QPp5/6Pb/P2PPP1P/RN2KBNR b KQkq - 2 7",
+        "move": "b5a4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/1ppbp1pp/B2p1p2/p7/PP1P2P1/N2QP3/2P2P1P/R1B1K1NR b KQkq - 2 8",
+        "move": "b7a6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1q1bnr/ppp1p1p1/2Nk1p2/3p3p/5Pb1/N3P3/PPPPB1PP/R1BQK2R w KQ - 2 8",
+        "move": "c6d8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/pp2pppp/2p5/3p4/3P1q2/P4NP1/1PP1PP1P/RNBQKB1R w KQkq - 0 5",
+        "move": "g3f4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkbnr/1p1ppp2/r1p3pp/p7/8/PPPP2P1/4PP1P/RNBQKBNR w KQk - 0 6",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbr1/ppp2ppp/3ppn2/8/7P/2NP1P2/PPP1P1P1/1RBQKBNR b Kq - 0 5",
+        "move": "d6d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/7P/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pp1pp/8/8/2B3pP/P3P2N/1PPP1P1R/RNBQK3 b Qkq - 2 7",
+        "move": "g4h3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1pppppp1/p6p/8/4P3/7N/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/ppp1p1p1/3q3p/3p1p2/4N3/5P1N/PPPPP1PP/R1BQKB1R w KQkq - 2 5",
+        "move": "e4d6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1rbk1bnr/pp1ppppp/nqp5/8/PP5P/4P3/1BPPKPP1/RN1Q1BNR b - - 2 6",
+        "move": "b6b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1pppppp1/7p/p7/8/P4N2/1PPPPPPP/RNBQKB1R w KQkq - 0 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/p1p2ppp/3q4/1P1pp3/R3P3/7N/1PPP1PPP/1NBQKB1R b Kkq - 2 5",
+        "move": "b8d7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/3ppppp/ppp5/6B1/1P6/P1PP4/4PPPP/RN1QKBNR w KQkq - 0 6",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p2pp1pp/1p3p2/2p5/3P4/4P1P1/PPP2P1P/RNBQKBNR w KQkq - 0 4",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/pppp1p1p/n7/6p1/1P2npQ1/N1PP4/P5PP/R1B1KBNR b KQkq - 1 7",
+        "move": "e4c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/2p1pp1p/3p2p1/Qp6/4P3/2P4b/PP1P1PPP/RNB1KBNR b KQkq - 1 5",
+        "move": "a8a5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/3P4/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r3kbnr/p2qpp1p/np1p2p1/2p5/1P4P1/P6b/R1PPPP1P/1NBQKBNR w Kkq - 1 8",
+        "move": "g1h3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/8/6p1/8/4P3/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1p1/5p2/3P3p/P1P5/7N/1P2PPPP/RNBQKB1R w KQkq - 1 6",
+        "move": "h3f4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkb1r/p1pbpp2/1p4pB/3p1P2/4N2p/3P4/PPP1PKPP/R2Q1BNR w kq - 1 8",
+        "move": "h6f8",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/p2ppp1p/2p4n/1p4pQ/4P3/2N2N2/PPPP1PPP/R1B1KB1R w KQkq - 0 5",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pp1p/6p1/1P1p4/8/8/P1PPPPPP/RNBQKBNR b KQkq - 0 3",
+        "move": "f8g7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pp1ppp/4p3/1p6/4P3/7N/PPPP1PPP/RNBQKBR1 b Qkq - 1 3",
+        "move": "a7a6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/pp1p1p1p/n5pn/2N5/8/P7/1PPPPPPP/RNBQKB1R w KQkq - 1 6",
+        "move": "c5b3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+        "move": "g7g6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbr1/pppppppp/8/7n/2P5/P3P3/1P1P1PPP/RNBQKBNR w KQq - 1 4",
+        "move": "d1h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/2pppppp/8/pp6/6P1/2N4P/PPPPPP2/R1BQKBNR b KQkq - 0 3",
+        "move": "c8b7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/1p2p1pp/3p4/pNp2p2/6b1/3PPP2/PPP3BP/R1BQK1NR b KQkq - 0 7",
+        "move": "g4h5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/7P/8/PPPPPPP1/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pBpnp1p1/1p3p1p/3p4/1P6/4P2P/P1PP1PP1/RNBQK1NR w KQkq - 2 6",
+        "move": "d1h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p2ppppp/2p5/1p6/7P/N7/PPPPPPP1/R1BQKBNR w KQkq - 0 3",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/p1p1p1pp/2np1p1n/1p4B1/P1P5/N2P1P2/1P2P1PP/R2QKBNR b KQkq - 1 6",
+        "move": "f6g5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "2b1k1nr/1pppqppp/r1nbp3/p7/QPP2P2/2N4N/P2PP1PP/R1B1KB1R w KQk - 5 7",
+        "move": "b4b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/1p1p1ppp/2q5/p1p1p3/1QP2P2/5N2/PP1PP1PP/RNBK1B1R b kq - 3 6",
+        "move": "a5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1pp1/4p2p/8/3PP3/N7/PPP2PPP/R1BQKBNR b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/1pp1ppp1/p1np1n2/6Bp/P7/2PP4/1P2PPPP/RNQ1KBNR w KQkq - 2 6",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/pp1ppppp/8/2p3qB/8/4P3/PPPP1PPP/RNBQ1KNR b kq - 7 5",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqk1nr/rp1p1ppp/p1pb4/4p3/QPP5/P7/1B1PPPPP/RN2KBNR w KQk - 2 6",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp2p3/2p4p/3p1p1p/3P4/5N2/PPP1PPPP/RNQ1KB1R b KQkq - 1 6",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1ppp1pp/8/1p3p2/3P4/5P1P/PPP1P1P1/RNBQKBNR b KQkq - 0 3",
+        "move": "e7e6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/8/7p/8/P7/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1pppp1p1/7n/p4pBp/3P4/3Q3N/PPP1PPPP/RN2KBR1 w Qkq - 4 7",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/8/2N1P3/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn2kbnr/pp3pp1/1q1p3p/2p1p3/2PN1P2/7P/PP1PP3/RNBQKBR1 b Qkq - 0 7",
+        "move": "e5d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1pppppp1/7p/p7/8/2P3PP/PP1PPP2/RNBQKBNR b KQkq - 0 3",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "move": "c7c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/8/5P1N/PPPPP1PP/RNBQKB1R b KQkq - 1 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/7P/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/5n2/8/P7/4P3/1PPP1PPP/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/pbp1pp2/1p4p1/2Pp3p/3P4/2N2PP1/PP2P2P/R1BQKBNR b KQkq - 0 6",
+        "move": "f8g7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/2P4P/8/PP1PPPP1/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/2p1ppbp/1p1p2p1/p4P2/8/N5K1/PPPPP1PP/R1BQ1BNR w kq - 0 6",
+        "move": "f5g6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "c1b2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1n1/p2p1pp1/1p1b3r/2p1p2p/2P2B2/P2P1P1N/RP2P1PP/1N1QKB1R b Kq - 0 7",
+        "move": "e5f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq2nr/pp1kppbp/3p4/2p3p1/3P2P1/P6B/1PPQPP1P/RNB1K1NR b KQ - 0 6",
+        "move": "g7d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kb1r/ppppqpp1/4pn2/7p/4P3/1P3P2/PBPP2PP/RN1QKBNR w KQkq - 1 5",
+        "move": "e4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/2P5/6P1/PP1PPP1P/RNBQKBNR b KQkq - 0 2",
+        "move": "g7g6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/1ppp1ppp/4p3/p7/3n4/P4NPP/1PPPPP2/RNBQKB1R w KQkq - 0 5",
+        "move": "f3d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/n7/8/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 2 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/p1p1pp1p/1pnp4/8/2P2Pp1/6P1/PP1PP2P/RNBQKBNR w KQkq - 0 6",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/pp2ppb1/2p3p1/3p2Np/7Q/1P2P1P1/P1PP1P1P/RNB1KBR1 b Q - 4 8",
+        "move": "g7a1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/2ppp1pp/p4pn1/1p1P4/8/1N3N2/PPP1PPPP/1RBQKB1R b Kkq - 1 7",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/1bppp1pp/1p6/p4p2/5P2/3P2NP/PPP1P1P1/R1BQKBNR b KQkq - 0 6",
+        "move": "e7e6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/2pppppp/p6n/1p6/8/1P4PB/P1PPPP1P/RNBQK1NR w KQkq - 2 4",
+        "move": "h3g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/p1pppppp/7n/1p6/1n2P3/3B3N/PPPP1PPP/RNBQK2R w KQkq - 3 5",
+        "move": "d3b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/ppp1pppp/n6B/3p4/1P1P4/P5P1/2P1PP1P/RN1QKBNR b KQkq - 2 5",
+        "move": "g8h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bq1bnr/ppppp2p/B4p2/4k1p1/4P3/5KP1/PPPP1P1P/RNBQ3R w - - 0 8",
+        "move": "a6e2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/2p1p1pp/ppn2p2/3p4/N2P4/1P3P2/P1PBP1PP/R2QKBNR b KQkq - 6 8",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pp1p2/1p2p3/7p/8/7N/PPPPPPPP/RNBQKBR1 w Qkq - 0 5",
+        "move": "b1c3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/pp1ppppp/8/q1p5/4P3/N5P1/PPPP1P1P/R1BQKBNR b KQkq - 0 3",
+        "move": "b8c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppp1p/2p3p1/7Q/4PP2/8/PPPP2PP/RNB1KBNR b KQkq - 0 3",
+        "move": "g6h5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/7P/PPPPPPP1/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbr1/pp1ppp1p/1q6/6p1/2pP1PnP/1QP1P3/PP4P1/RNB1KBNR b KQq - 2 8",
+        "move": "c4b3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p2pp1p1/1pp4p/5p2/4PP2/6PB/PPPP3P/RNBQK1NR w KQkq - 0 5",
+        "move": "d1h5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/pppppp1p/6p1/4b3/3PP3/8/PPPB1PPP/RN1QKBNR w KQkq - 1 4",
+        "move": "d4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/pbp1ppp1/1p6/3p3p/8/3P2PP/PPP1PPB1/R1BQKNNR w KQkq - 0 7",
+        "move": "c2c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbk1bnr/ppqppppp/8/2p5/2P5/N7/PPQPPPPP/R1BK1BNR w - - 5 5",
+        "move": "a3b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/5P2/N7/PPPPP1PP/R1BQKBNR b KQkq - 0 2",
+        "move": "e5f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pp1p/6p1/3p4/8/4P1PN/PPPP1P1P/RNBQKB1R b KQkq - 0 3",
+        "move": "b8c6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/8/6p1/P6P/8/1PPPPPP1/RNBQKBNR b KQkq - 0 2",
+        "move": "g5g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/ppppppp1/n6p/8/1P6/6P1/P1PPPP1P/RNBQKBNR w KQkq - 0 3",
+        "move": "b4b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqk1nr/1pp2p1p/r7/p2pp1p1/1b2P1PP/1PN5/P1PP1P2/1RBQKBNR b Kk - 2 7",
+        "move": "a6g6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r3kbnr/1bp1ppp1/ppnq4/2Pp3p/1P5P/3PPP2/P3Q1P1/RNB1KBNR b KQkq - 0 8",
+        "move": "b6c5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/ppqp2pp/4pp2/2p5/4N3/5PPN/PPPPP2P/R1BQKB1R b KQkq - 2 5",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/1pppppbp/p5p1/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 2 4",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/p1pp1ppp/8/1p2p1N1/8/b4P2/PPPPP1PP/R1BQKBNR b KQkq - 3 4",
+        "move": "a3e7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1n1qkbnr/r2bpppp/pppp4/8/1P1P2P1/N2Q1N2/P1P1PP1P/R1B1KB1R b KQk - 0 8",
+        "move": "d7g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/p1pppppn/8/1p4Pp/8/5P2/PPPPP2P/RNBQKBNR b KQkq - 2 5",
+        "move": "h7g5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/2ppp1pp/1p3p2/p7/P7/1P3N2/2PPPPPP/RNBQKB1R w KQkq - 4 6",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1p1/5p1p/8/8/5PP1/PPPPPK1P/RNBQ1BNR b kq - 0 3",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/8/6p1/6P1/8/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kbnr/ppp2pp1/2n1p2p/1B1p4/qP6/P1P1P2N/N2P1PPP/R1BQK2R b KQkq - 1 8",
+        "move": "a4b5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppp2/p5pp/8/8/3P4/PPP1PPPP/RNBQKBNR w KQkq - 0 4",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1p1p/4p1p1/8/4P3/N7/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbr1/3ppp2/p1p2n1p/1p4p1/P7/3P2PN/1PPNPP1P/R1BQKBR1 b Qq - 3 8",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p1B1/2P5/1P1P4/P3PPPP/RN1QKBNR b KQkq - 2 4",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1k1nr/pppp1pq1/B5pp/4pP2/4P3/b2P1Q1N/PPP1K1PP/RNB4R b kq - 1 8",
+        "move": "a3c5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppp2pp/5p2/4p1N1/PP1n4/2N5/2PPPPPP/R1BQKB1R b KQkq - 4 5",
+        "move": "f6g5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pp1ppp2/n7/2p2Ppp/P2P4/2N5/1PPKP1PP/R1B1QBNR w kq - 0 8",
+        "move": "d4d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/pbp1pppp/1p6/3p4/8/P1P5/RP1PPPPP/1NBQKBNR w Kkq - 2 4",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq1bnr/pppkp1p1/3p4/5p1p/1P4P1/5N2/PBPPPP1P/RN1QKB1R w KQ - 0 5",
+        "move": "g4f5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/1p1p1p2/n7/p1pQp1pp/3N4/2P1P3/PP1P1PPP/RNB1KB1R w KQkq - 0 7",
+        "move": "d5e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbr1/3ppppp/5n2/ppp5/8/NPP5/PBQPPPPP/R3KBNR w KQq - 4 6",
+        "move": "a3b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb2k1r/1pppqpp1/p2b3n/4p2p/4PP2/P2P3P/1PPB2P1/RN1QKBNR w KQ - 1 8",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/1p2pppp/p1p5/q2p4/8/1PN2N2/P1PPPPPP/R1BQKBR1 w Qkq - 2 5",
+        "move": "e2e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kbnr/p1pp1p2/1pn1p1p1/4P2p/1P6/8/P1PP1KPP/RNBQNB1R w kq - 1 8",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/pp2pp1p/3q4/2pp2p1/8/P2P1N1P/RPP1PPP1/1NBQKBR1 b kq - 2 6",
+        "move": "h7h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/1p1qpppp/p1pp4/8/5PP1/7N/PPPPP2P/RNBQKB1R w KQkq - 1 5",
+        "move": "h3f2",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1q2nr/ppp1k1pp/3p1p2/1B2pb2/5PP1/2P1P3/P1PP3P/RNBQK1NR w KQ - 1 8",
+        "move": "g4f5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq1bnr/1pppp1p1/p5kp/5p2/1P1P4/2PQ2PB/P3PP1P/RNB1K1NR b KQ - 3 6",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/1p2pppp/p1np3B/2p5/3P2n1/1P2P1P1/P1P2P1P/RN1QKBNR b KQkq - 2 7",
+        "move": "g4h6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/p3qppp/1pppp3/8/4P3/2PB1QPP/PP1PNP2/RNB1K2R b KQkq - 5 7",
+        "move": "c8b7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppp2/6pp/p7/P7/2N2N2/1PPPPPPP/R1BQKB1R b KQkq - 0 4",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "2bqkbnr/rpp1pppp/p7/n7/P2p1NP1/8/RPPPPP1P/1NBQKB1R w Kk - 2 7",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbn1/pp1pp2r/2p3p1/2N2p1p/2B1P3/5N2/PPPP1PPP/R1BQK2R b KQq - 3 6",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pp1p4/2p1p2n/5ppp/P4PP1/2P5/RP1PPK1P/1NBQ1BNR b kq - 2 7",
+        "move": "h6g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bq1rk1/1ppp1p1p/p1n1pnp1/8/1b1N4/Q1P4P/PP1PPPP1/RNBK1B1R w - - 6 8",
+        "move": "d4c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1p1p1p1p/2p1pnp1/p7/7P/5PP1/PPPPP3/RNBQKBNR w Qkq - 0 6",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/2pppppp/8/p7/1p2P3/NP6/P1PP1PPP/R1BQKBNR w KQkq - 0 4",
+        "move": "a3c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/8/7p/8/2P2P2/PP1PP1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqkb1r/2pppppp/rp6/p5N1/P5P1/2P3nP/1P1PPP2/RNBQKB1R w KQk - 1 7",
+        "move": "f2g3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "move": "c2c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbn1/ppppppp1/7r/7p/1n1P3P/BP3N2/P1PNPPP1/R2QKB1R b KQq - 6 6",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/p1p3pp/3p4/1p2pp2/3P4/bPN3PN/P1P1PP1P/R1BQKB1R b KQkq - 0 6",
+        "move": "a3c1",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq1bnr/p1ppp1pp/4k3/1p3p2/8/P1P1P1P1/1P1P1P1P/RNBQKBNR w KQ - 1 5",
+        "move": "e3e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/ppqp3p/5pp1/2p1p3/P3PP2/2PB4/1P1PQ1PP/RNB1K1NR b KQkq - 1 7",
+        "move": "e5f4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkb1r/r1pppp1p/p5pn/6B1/1p2PN2/2NP1P2/PPP3PP/R2QKB1R b KQk - 4 7",
+        "move": "b4c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/pb1ppp2/6pp/1Bp4Q/4P3/8/PPPPKPPP/RNB3NR w kq - 0 6",
+        "move": "h5c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pp1pp1/1p6/4p2P/8/8/PPPPPP1P/RNBQKBNR b KQkq - 0 4",
+        "move": "c8b7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/pp1pp3/1q3p1p/2p3p1/2N2PP1/1P6/P1PPP2P/R1BQKBNR w KQkq - 2 6",
+        "move": "c4b6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/1ppp3p/p1n2ppn/4p2Q/4PP2/2P5/PP1P2PP/RNB1KBNR b KQkq - 1 7",
+        "move": "g6h5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/3pn1pp/2p1p3/pp3p2/1P1PP3/6PP/P1PB1P2/RN1QKBNR b KQq - 0 8",
+        "move": "f5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqkbnr/1p5p/r2p2p1/p1p1pp2/P1PP4/4P2N/1P1K1PPP/RNBQ1B1R w k - 0 8",
+        "move": "d4d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/pbppp1pp/1pnB4/3P1p2/8/8/PPP1PPPP/RN1QKBNR w KQkq - 0 5",
+        "move": "d5c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kbnr/pp2p1pp/n4p2/2pp4/2P2PP1/N7/PP1P1P1P/R1BQKBNR w KQkq - 0 7",
+        "move": "c4d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r2qkb1r/ppp1pppp/2np3n/3P1b2/8/P3BN2/1PP1PPPP/RN1QKB1R b KQkq - 4 5",
+        "move": "c6e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1p1ppppp/2p5/p7/8/PP4P1/2PPPP1P/RNBQKBNR b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/6P1/8/PPPPPP1P/RNBQKBNR b KQkq - 0 1",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb2bnr/ppkpppp1/3q3p/2p3N1/3Q4/2N1P3/PPPP1PPP/R1B1KB1R w KQ - 6 8",
+        "move": "d4d6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/2P5/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "2bqkbnr/1ppppppp/n5r1/p7/3P1P1N/P5P1/1PP1P2P/RNBQKB1R w KQk - 3 7",
+        "move": "h4g6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/8/8/6P1/4n2B/PP1P1P1P/RNBQK1NR b kq - 1 5",
+        "move": "e3d1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqk1nr/1p1pp1bp/p5p1/2p2p2/6P1/N1PPP2N/PP3P1P/R1BQKB1R b KQkq - 0 6",
+        "move": "f5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppppp/2p5/8/7P/N7/PPPPPPP1/R1BQKBNR b KQkq - 1 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp1pp1pp/2p4n/5p2/3P2P1/5N2/PPPBPP1P/RN1QKB1R b KQkq - 2 4",
+        "move": "f5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/1pp1pppp/p2pb3/8/5P2/N4N2/PPPPP1PP/R1BQKB1R b KQkq - 1 4",
+        "move": "d6d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/p7/8/P7/8/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppp1p/8/1p4p1/8/N4N2/PPPPPPPP/R1BQKBR1 b Qkq - 1 3",
+        "move": "g5g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1p1ppp/4p3/2p5/8/2NP1P2/PPP1P1PP/R1BQKBNR b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r2qkbnr/pppnp2p/4bp2/5Pp1/3p3P/N3PN2/PPPP1KP1/R1BQ1B1R b kq - 0 7",
+        "move": "d4e3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/4P3/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "move": "c2c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/7p/8/8/P7/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqkb1r/rp2pp1p/p1p2n2/3p1Pp1/3P4/4B2P/PPP1P1P1/RN1QKBNR w KQk - 0 7",
+        "move": "g1f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/2pppppp/1p6/p7/8/2NPP3/PPP2PPP/R1BQKBNR b KQkq - 0 3",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1nbqkbnr/rp2p3/p1pp1p2/6pp/3P2PP/P1N2N2/1PP1PP2/R1BQKBR1 b Qk - 1 8",
+        "move": "h5g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/2pp2p1/1p2pn2/p2N1p1p/3P1P2/6PN/PPP1P1KP/R1BQ1B1R b kq - 1 8",
+        "move": "e6d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppp1p1p1/8/3p1pBp/1P2P2P/N7/P1n2PP1/R2QKBNR w KQkq - 0 7",
+        "move": "d1c2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/1PP5/P2PPPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1p1pppp/8/1p1p4/4P3/1PP5/P2P1PPP/RNBQKBNR b KQkq - 0 3",
+        "move": "d5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp2pp1p/2p3p1/3p4/P4P2/4P3/1PPPB1PP/RNBQK1NR b KQkq - 0 4",
+        "move": "c6c5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/8/1p6/2P5/P7/1P1PPPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "b5c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp2/8/6pp/3P4/1P3P2/P1P1P1PP/RNBQKBNR b KQkq - 0 3",
+        "move": "f8g7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppp1p/7n/6p1/8/PPP4N/3PPPPP/RNBQKB1R b KQkq - 1 4",
+        "move": "g5g4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/8/p7/8/7N/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/6P1/PPPPPP1P/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/8/7p/8/4P3/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/1ppppppp/5n2/p7/5P2/3P4/PPP1P1PP/RNBQKBNR w KQkq - 1 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq1bnr/pppppkp1/7p/5p2/P2P1P2/7N/1PP1P1PP/RNBQKB1R b KQ - 0 5",
+        "move": "g8f6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/ppp1p2p/3p1pp1/5n2/P5PP/R4P2/1PPPP3/1NBQKBNR w Kkq - 1 6",
+        "move": "g4f5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqk2r/p2pbp1p/2n1pn2/1pp3p1/1P3P1P/P1P3PN/3PP3/RNBQKB1R b KQkq - 2 8",
+        "move": "g5f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/pppp1pp1/4p2p/8/5P1q/3P3P/PPPKP1P1/RNBQ1BNR b kq - 0 4",
+        "move": "h4f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/3ppppp/1p3n2/p1p5/4N2P/2PP4/PP2PPP1/R1BQKBNR b KQkq - 0 5",
+        "move": "f6e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1k1nr/p1qp1p1p/3b2p1/1p2p3/4PP2/8/PPPP1KPP/R1BQ1BNR w kq - 0 7",
+        "move": "g1f3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbq1bnr/ppp1k2p/3p4/4pQ2/2P1PP2/3B2p1/PP1P2PP/RNBK2NR w - - 0 8",
+        "move": "f5g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1k1n1/pppp1ppr/4q3/2b1p2p/3P4/N2QBNP1/PPP1PP1P/R3KB1R w KQq - 3 8",
+        "move": "f3g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/6P1/PPPPPP1P/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn2kbnr/2p1pppp/p7/1p1p4/2PP2b1/4P2q/PP1K1PPP/RNBQ1B1R b kq - 2 7",
+        "move": "g4d1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pp1pp/2p5/5p2/Q1P5/8/PP1PPPPP/RNBK1BNR b kq - 1 3",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "move": "g8f6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1ppp1p/2p3p1/8/8/2P1P3/PP1P1PPP/RNBQKBNR w KQkq - 0 3",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1p1p1/3p1p1p/8/1PP5/8/P2PPPPP/RNBQKBNR w KQkq - 0 4",
+        "move": "c1b2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/n7/8/PP6/8/2PPPPPP/RNBQKBNR b KQkq - 0 2",
+        "move": "a6b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/p2pp2p/5p1n/1p4p1/3p1PP1/BPP4N/P3P2P/RN1QKB1R b KQkq - 1 7",
+        "move": "b5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppppp1/7p/8/8/N6P/PPPPPPP1/R1BQKBNR b KQkq - 1 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkb1r/p1ppp1pp/n6n/1p1N1p2/3P4/4P3/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+        "move": "f1b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkb1r/pp2p1pp/3p1pnn/2p5/PPP3P1/5P1N/R2PP2P/1NBQKB1R b Kkq - 0 8",
+        "move": "c5b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1p1p/6p1/4p3/3P3P/8/PPP1PPP1/RNBQKBNR w KQkq - 0 3",
+        "move": "d4e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp2pp/5p2/4p3/8/4P3/PPPPQPPP/RNB1KBNR w KQkq - 0 3",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/8/1P3P2/P1PPP1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kqnr/p1pp2pp/4pp2/bN6/4P1PP/8/PPPP1P1N/1RBQKB1R b Kkq - 4 8",
+        "move": "b8c6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkb1r/p1ppp1p1/b6p/1pP2p2/6P1/1P1Pn3/PB2PP1P/RN1QKBNR b KQkq - 0 8",
+        "move": "e3d1",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqk1nr/1ppppp1p/2n3pb/p7/3P4/1PN4P/P1P1PPP1/1RBQKBNR b Kkq - 1 5",
+        "move": "h6c1",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/ppp2ppp/2np4/4p3/P7/RP5P/1BPPPPP1/1N1QKBNR b Kkq - 3 5",
+        "move": "d6d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bq1bnr/p1pp1kp1/1pn1pp1p/8/PP4P1/2N2N2/2PPPP1P/R1BQKB1R w KQ - 1 7",
+        "move": "b4b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pp1ppp/1p6/4p3/8/P3P2N/1PPP1PPP/RNBQKB1R w KQkq - 0 4",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/7n/8/8/P6P/1PPPPPP1/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/3ppp2/p1pq2p1/1P5p/8/2P1P3/PB1P1PPP/RN2KBNR b KQkq - 0 8",
+        "move": "f8g7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppppp1p/2n3p1/8/PP6/N7/2PPPPPP/R1BQKBNR b KQkq - 0 3",
+        "move": "c6b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1b1kbnr/pp1p1p2/n4q1p/2p1p1p1/4P1P1/PP6/2PP1P1P/RNBQKBNR w KQkq - 0 7",
+        "move": "f1a6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/p1pppp1p/np6/6P1/8/P5PN/1PPPP2P/RNBQKB1R b KQkq - 0 5",
+        "move": "c8b7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq3r/pppp1kpp/4p2n/2b2p2/2P2P1P/1PN5/P2PP1P1/R1BQKBNR w KQ - 2 6",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/1ppppp1p/2n3p1/p7/3N4/7P/PPPPPPP1/RNBQKB1R w KQkq - 2 4",
+        "move": "d4c6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P1P2/8/PPP1P1PP/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/1pp2pp1/p2pp2p/7n/3P1PPP/2P1B3/PP2P2R/RN1QKBN1 b Qkq - 2 7",
+        "move": "h5f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1pp1/8/4p2p/1PPP4/7N/P3PPPP/RNBQKB1R b KQkq - 1 4",
+        "move": "f8b4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkb1r/p3pppp/bp5n/3p4/2p5/2PP2PP/PP1KPP1N/RNBQ1B1R b kq - 0 7",
+        "move": "c4d3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kb1r/pppp1ppp/4p3/6q1/3P1B2/P7/1PP1PPPP/RN1QKBNR b KQkq - 0 4",
+        "move": "g5f4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r2qkbnr/2p1pppp/n2p4/pp6/PPB1P1b1/2N5/2PP1PPP/R1BQK2R w KQkq - 3 7",
+        "move": "c4b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/2pp2pp/pp6/1n2pp2/3P1P2/5NP1/PPP1PK1P/R1BQ1B1R w kq - 0 8",
+        "move": "f4e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/5P1P/8/PPPPP1P1/RNBQKBNR b KQkq - 0 2",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1pppppp1/p6p/8/4P2P/8/PPPP1PP1/RNBQKBNR w KQkq - 0 3",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/pppppp1p/6p1/3P4/8/4P3/PPP1BnPP/RNBQK1NR w KQkq - 0 5",
+        "move": "e1f2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1p1ppppp/p7/2p5/8/1P3N2/P1PPPPPP/RNBQKB1R w KQkq - 0 3",
+        "move": "c2c4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1p1/8/5p1p/2P5/1P3N2/P2PPPPP/RNBQKB1R b KQkq - 1 3",
+        "move": "e7e6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1k1nr/p1pp1ppp/q7/1p2p3/Pb1P1P2/2N2N2/2P1P1PP/R1BQKB1R w KQkq - 0 7",
+        "move": "c1d2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnb1kbnr/pppq1p1p/4p3/3p2p1/7P/2N1P1PR/PPPP1P2/R1BQKBN1 b Qkq - 1 5",
+        "move": "g5h4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbn1/2p1pppr/p7/1p1p3p/2P5/1P1Q1P1b/P2PPKPP/RNB2BNR b q - 3 7",
+        "move": "h3g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/4pp1p/pp1p2p1/2p5/2P4P/5N2/PP1PPPP1/RNBQKB1R w KQkq - 0 6",
+        "move": "h4h5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/1p2pppp/pq6/2pp4/6P1/P2BPP1P/1PPP4/RNBQK1NR w KQkq - 1 8",
+        "move": "b1c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppn1ppp/8/4p3/3p1PP1/2N5/PPPPP1BP/R1BQK1NR b KQkq - 3 5",
+        "move": "d8h4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "move": "c7c5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1p2pp/8/2p1pp2/8/P4P1N/1PPPP1PP/RNBQKB1R w KQkq - 0 4",
+        "move": "e2e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/1p2ppp1/3p4/p1p1P3/2PN2bp/1PN5/P2P1PPP/R1BQKB1R w KQkq - 0 8",
+        "move": "d1g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/2n5/8/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 1 2",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/8/P7/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp2p2p/2p2pp1/3p4/5P2/P2PP2N/1PP3PP/RNBQKB1R b KQkq - 0 5",
+        "move": "c8h3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbn1/1ppp4/4pp1r/p5pp/2PP4/4PP1N/PP1K2PP/RNBQ1BR1 w q - 2 8",
+        "move": "b1c3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbq1bnr/p3k1p1/1ppppp1p/8/QPP3P1/3P4/P3PP1P/RNB1KBNR w KQ - 0 8",
+        "move": "f1g2",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbQr/p1pbp1pp/3p1p2/1pP5/8/P7/1P1PPPPP/RNB1KBNR w KQkq - 0 6",
+        "move": "g8h8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqk1nr/ppppp2p/5ppb/8/P7/1P3N1P/2PPPPP1/RNBQKB1R b KQkq - 2 4",
+        "move": "f6f5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/8/p7/8/3P4/PPP1PPPP/RNBQKBNR b KQkq - 1 3",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/ppppppp1/8/4n2p/3P2P1/N4P2/PPP1P2P/R1BQKBNR b KQkq - 0 4",
+        "move": "e5g6",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1rbqkb1r/p1ppp1p1/1p3n1p/nB3p2/4P2P/1P6/P1PP1PPR/RNBQK1N1 b Qk - 3 8",
+        "move": "f5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P1P1/8/PPPP1P1P/RNBQKBNR w KQkq - 0 3",
+        "move": "b1c3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkbnr/1pp1pppp/8/p2p1b2/3P2P1/5P2/PPP1P2P/RNBQKBNR w KQkq - 0 4",
+        "move": "g4f5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rbbqk1nr/pp1p1ppp/n3p3/8/2p2P2/3PB3/PPP1PKPP/RNQ2BNR b kq - 1 7",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp1pppp1/8/2p4p/8/N1P5/PP1PPPPP/R1BQKBNR w KQkq - 0 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/pppppppp/n7/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 1 2",
+        "move": "g1f3",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "1rbqkb1r/p1p1pppn/2n5/1p1p3p/P4P1P/2P3PN/RP1PP3/1NBQKB1R w Kk - 0 8",
+        "move": "a4b5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/3p4/8/8/7P/PPPPPPPR/RNBQKBN1 b Qkq - 1 2",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppp1pppp/3p4/8/6P1/8/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
+        "move": "h2h3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rn1qkb1r/1pp1p2p/p3bp1n/3p2p1/PP1P1P2/6PN/2P1P2P/RNBQKB1R w KQkq - 1 7",
+        "move": "f4g5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1b1kbnr/pppp4/n4p1p/4p3/1P1P2Pq/P1NQ3B/2P1PP1P/R3K1NR b KQkq - 1 8",
+        "move": "g8e7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bqkbnr/pppp1pp1/n3p3/7p/Q2P4/2P5/PP2PPPP/RNB1KBNR w KQkq - 0 4",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pp1p1pp1/2p5/4p2p/1P6/5NP1/P1PPPP1P/RNBQKBR1 b Qkq - 1 4",
+        "move": "e5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbr1/pppp1pp1/5n1p/4p2P/7R/N4N2/PPPPPPP1/R1BQKB2 b Qq - 1 5",
+        "move": "e5e4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/ppppp1p1/8/7p/6p1/4P2B/PPPPKP1P/RNBQ2NR b kq - 1 4",
+        "move": "g4h3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/1pp1pppp/3p1n2/p5B1/8/2PP1P2/PP2P1PP/RN1QKBNR b KQkq - 1 4",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1pppp1pp/5p2/p7/5P2/7N/PPPPP1PP/RNBQKB1R w KQkq - 0 3",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/2ppp1p1/1p5p/pB6/4Pp2/5P1P/PPPP2P1/RNBQK1NR b KQkq - 0 7",
+        "move": "e7e5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqk2r/p1pp1ppp/np3n2/4p3/1b5P/2NP1NP1/PPP1PP2/R1BQKB1R b KQkq - 0 6",
+        "move": "d8e7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/1ppppppp/p7/8/3P2P1/8/PPP1PP1P/RNBQKBNR b KQkq - 0 2",
+        "move": "d7d5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "r1bq1bnr/pppkp1pp/3p4/1P2np2/P7/R1P5/1B1PPPPP/1N1QKBNR b K - 3 6",
+        "move": "e5c4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbn1/1pp1pp1r/3p2pp/p7/P4B2/3P4/1PPNPPPP/R2QKBNR w KQq - 2 6",
+        "move": "d3d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/8/1p6/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkb1r/ppp1pp1p/1N4pn/3p4/1P6/P2b4/R1PPPPPP/2BQKBNR w Kkq - 2 7",
+        "move": "b6a8",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppp2/1p4pp/8/8/1QP1P1P1/PP1P1P1P/RNB1KBNR b KQkq - 1 4",
+        "move": "c8b7",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "move": "d7d5",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/8/PP4P1/2PPPP1P/RNBQKBNR b KQkq - 0 3",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/8/7N/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "move": "e2e4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqk1nr/1ppppp2/2n2b2/p5pp/3P2P1/1P2P2P/P1P2P1N/RNBQKBR1 b Qkq - 0 8",
+        "move": "e7e5",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkb1r/pp1p1pp1/2p3n1/4P1P1/1P5p/2N5/P1PPP2P/R1BQKBNR w KQkq - 0 7",
+        "move": "a2a3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pp2p1pp/3p1p2/2p5/8/1PNP4/P1P1PPPP/R1BQKBNR w KQkq - 0 4",
+        "move": "d3d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rn1qkbnr/p1pppppp/b7/1p6/7P/8/PPPPPPP1/RNBQKBNR b KQkq - 2 3",
+        "move": "a6b7",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "r1bqkbnr/p1p1ppp1/1pn5/3p3p/NP6/P7/2PPPPPP/R1BQKBNR w KQkq - 2 5",
+        "move": "e2e3",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/6p1/8/6P1/8/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
+        "move": "d2d4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "rnb1kbnr/pp1ppppp/2p5/6q1/4P1P1/2P5/PP1P1P1P/RNBQKBNR w KQkq - 1 4",
+        "move": "d2d4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppp1p/8/6p1/5P2/8/PPPPPKPP/RNBQ1BNR b kq - 1 2",
+        "move": "g5f4",
+        "intent": "phòng thủ"
+    },
+    {
+        "fen": "1nbqk1nr/r2pppBp/pp6/2p3p1/4P3/3P1N2/PPP2PPP/RN1QKB1R b KQk - 0 7",
+        "move": "g5g4",
+        "intent": "tấn công"
+    },
+    {
+        "fen": "rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+        "move": "g8f6",
+        "intent": "phòng thủ"
+    }
+]
