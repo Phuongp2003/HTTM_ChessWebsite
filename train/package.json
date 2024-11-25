@@ -5,7 +5,7 @@
   "type": "module",
   "dependencies": {
     "@tensorflow/tfjs": "^4.22.0",
-    "@tensorflow/tfjs-node": "^1.2.6",
+    "@tensorflow/tfjs-node": "^4.22.0",
     "@tensorflow/tfjs-node-gpu": "^4.22.0",
     "chess_piece_recognition": "file:",
     "natural": "^8.0.1"
