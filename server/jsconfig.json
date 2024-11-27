@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@database/*": [
+                "./database/*"
+            ],
+            "@middleware/*": [
+                "./middleware/*"
+            ],
+            "@prisma/*": [
+                "./prisma/*"
+            ],
+            "@routes/*": [
+                "./routes/*"
+            ],
+            "@socket/*": [
+                "./socket/*"
+            ],
+            "@utils/*": [
+                "./utils/*"
+            ]
+        }
+    }
+}

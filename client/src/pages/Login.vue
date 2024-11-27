@@ -92,7 +92,7 @@
 					password: this.password,
 				};
 
-				await fetch(`${this.serverUrl}/api/auth/login`, {
+				await fetch(`http://localhost:3000/api/auth/login`, {
 					method: 'POST',
 					headers: {
 						'Content-Type': 'application/json',
@@ -107,13 +107,13 @@
 							console.log('Đăng nhập thành công!');
 						} else throw new Error(data.message);
 						this.cookies.set('accessToken', data.accessToken, {
-							path: '/admin',
+							path: '/',
 							expires: new Date(
 								new Date().getTime() + 60 * 60 * 1000
 							), // 1 hour
 						});
 						this.cookies.set('refreshToken', data.refreshToken, {
-							path: '/admin',
+							path: '/',
 							expires: new Date(
 								new Date().getTime() + 60 * 60 * 1000 * 24 * 7
 							),
@@ -123,12 +123,12 @@
 
 						const decodedToken = jwtDecode(accessToken);
 						const user = {
+							id: decodedToken.id,
 							uid: decodedToken.uid,
 							username: decodedToken.username,
-							permissions: decodedToken.permissions,
 						};
 						this.cookies.set('user', JSON.stringify(user), {
-							path: '/admin',
+							path: '/',
 							expires: new Date(
 								new Date().getTime() + 60 * 60 * 1000 * 24 * 7
 							),

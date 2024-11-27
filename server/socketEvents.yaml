@@ -1,0 +1,40 @@
+openapi: 3.0.0
+info:
+  title: Chess Website WebSocket Events
+  version: 1.0.0
+  description: Documentation for WebSocket events in the Chess Website
+
+paths:
+  /socket:
+    get:
+      summary: WebSocket connection
+      description: |
+        Connect to the WebSocket server and listen for events.
+      responses:
+        '101':
+          description: Switching Protocols
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  event:
+                    type: string
+                    description: The event name
+                  data:
+                    type: object
+                    description: The event data
+      examples:
+        connection:
+          summary: Connection event
+          value:
+            event: connection
+            data:
+              socketId: '12345'
+        create_room:
+          summary: Create room event
+          value:
+            event: create_room
+            data:
+              playerId: 'player1'
+              gameId: '67890'
