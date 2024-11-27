@@ -11,7 +11,18 @@ const router = createRouter({
         {
             path: '/chess',
             name: 'chess',
-            component: () => import('@/components/Chess/Index.vue')
+            children: [
+                {
+                    path: 'pvp',
+                    name: 'pvpchess',
+                    component: () => import('@/components/Chess/PVP.vue')
+                },
+                {
+                    path: 'pve',
+                    name: 'pvechess',
+                    component: () => import('@/components/Chess/Index.vue')
+                }
+            ]
         },
         {
             path: '/login',

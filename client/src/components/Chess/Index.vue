@@ -1,5 +1,5 @@
 <template>
-	<div id="app">
+	<div id="app-content">
 		<div
 			v-if="errorMessage"
 			class="error-message">
@@ -62,7 +62,7 @@
 						avatar: '/imgs/p2.jpg',
 					},
 				},
-				currentPlayer: '',
+				currentPlayer: null,
 			};
 		},
 		inject: ['pTitle'],
@@ -83,7 +83,7 @@
 		methods: {
 			async checkServer() {
 				try {
-					await axios.post('http://localhost:3000/start');
+					await axios.post('http://localhost:3000/api/pve/start');
 					this.useServer = true;
 					this.errorMessage = ''; // Clear any previous error messages
 				} catch (error) {
@@ -96,7 +96,7 @@
 			async handleUseServerChange() {
 				if (this.useServer) {
 					try {
-						await axios.post('http://localhost:3000/start');
+						await axios.post('http://localhost:3000/api/pve/start');
 						this.errorMessage = ''; // Clear any previous error messages
 					} catch (error) {
 						console.error('Server is not available:', error);
@@ -105,7 +105,7 @@
 							'Server is not available. Using serverless mode.';
 					}
 				} else {
-					this.errorMessage = ''; // Clear error message when switching to serverless mode
+					this.errorMessage = '';
 				}
 			},
 		},
