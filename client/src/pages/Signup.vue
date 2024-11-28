@@ -103,6 +103,27 @@
 						v-model="rpassword"
 						required />
 				</div>
+				<div class="form-group">
+					<label
+						class="block mb-2 text-black"
+						for="avatar"
+						>Ảnh đại diện</label
+					>
+					<input
+						type="file"
+						class="form-control w-full p-2 mb-6 text-indigo-700 border-b-2 border-indigo-500 outline-none focus:bg-gray-300"
+						id="avatar"
+						@change="previewAvatar"
+						accept="image/*" />
+					<div
+						v-if="avatar"
+						class="mt-4">
+						<img
+							:src="avatar"
+							alt="Avatar Preview"
+							class="w-32 h-32 object-cover rounded-full mx-auto" />
+					</div>
+				</div>
 				<div
 					class="message"
 					v-if="message != null && message != ''">
@@ -130,12 +151,18 @@
 <script>
 	import { useCookies } from '@vueuse/integrations/useCookies';
 	import { jwtDecode } from 'jwt-decode';
+	import axios from 'axios';
 	export default {
 		components: {},
 		data() {
 			return {
+				lastname: '',
+				firstname: '',
+				nickname: '',
+				email: '',
 				username: '',
 				password: '',
+				avatar: '',
 				inLoad: false,
 				message: '',
 				isVerified: false,
@@ -148,73 +175,76 @@
 		methods: {
 			async login(event) {
 				event.preventDefault();
+				if (this.password !== this.rpassword) {
+					this.message = 'Mật khẩu nhập lại không trùng khớp!';
+					return false;
+				}
 				this.inLoad = true;
+				let avatarUrl = '';
+				if (this.avatar) {
+					const formData = new FormData();
+					formData.append('file', this.avatar);
+					formData.append('upload_preset', 'upload_f');
+					formData.append(
+						'asset_folder',
+						process.env.VITE_CLOUDINARY_FOLDER
+					);
 
-				const loginData = {
+					try {
+						const response = await axios.post(
+							`https://api.cloudinary.com/v1_1/${
+								import.meta.env.VITE_CLOUDINARY_NAME
+							}/image/upload?upload_preset=upload_f`,
+							formData
+						);
+						avatarUrl = response.data.secure_url;
+					} catch (error) {
+						console.error('🚀 ~ login ~ error:', error);
+						this.message = 'Failed to upload avatar';
+						this.inLoad = false;
+						return;
+					}
+				}
+
+				const signupInfo = {
+					lastName: this.lastname,
+					firstName: this.firstname,
+					nickname: this.nickname,
+					email: this.email,
 					username: this.username,
 					password: this.password,
+					avatar: avatarUrl,
 				};
 
-				await fetch(`${this.serverUrl}/api/auth/login`, {
+				await fetch(`http://localhost:3000/api/auth/register`, {
 					method: 'POST',
 					headers: {
 						'Content-Type': 'application/json',
 					},
-					body: JSON.stringify(loginData),
+					body: JSON.stringify(signupInfo),
 					credentials: 'include',
 				})
 					.then((response) => response.json())
 					.then((data) => {
 						this.inLoad = false;
-						if (data.status === 200) {
-							console.log('Đăng nhập thành công!');
-						} else throw new Error(data.message);
-						this.cookies.set('accessToken', data.accessToken, {
-							path: '/admin',
-							expires: new Date(
-								new Date().getTime() + 60 * 60 * 1000
-							), // 1 hour
-						});
-						this.cookies.set('refreshToken', data.refreshToken, {
-							path: '/admin',
-							expires: new Date(
-								new Date().getTime() + 60 * 60 * 1000 * 24 * 7
-							),
-						});
-
-						const accessToken = this.cookies.get('accessToken');
-
-						const decodedToken = jwtDecode(accessToken);
-						const user = {
-							uid: decodedToken.uid,
-							username: decodedToken.username,
-							permissions: decodedToken.permissions,
-						};
-						this.cookies.set('user', JSON.stringify(user), {
-							path: '/admin',
-							expires: new Date(
-								new Date().getTime() + 60 * 60 * 1000 * 24 * 7
-							),
-						});
-
-						const refreshToken = this.cookies.get('refreshToken');
-
-						if (!accessToken || !refreshToken) {
-							throw new Error(
-								'Lỗi đăng nhập, không nhận được token!'
-							);
-						}
-						this.isVerified = true;
-						this.$emit('login-success', username);
-						console.log(
-							'Đăng nhập thành công và token đã được lưu trong cookies'
-						);
+						console.log('Đăng ký thành công!');
+						this.$router.push('/login');
 					})
 					.catch((error) => {
 						// Handle any errors
 						this.message = error;
 						console.error(error);
 					});
+			},
+			previewAvatar(event) {
+				const file = event.target.files[0];
+				if (file) {
+					const reader = new FileReader();
+					reader.onload = (e) => {
+						this.avatar = e.target.result;
+					};
+					reader.readAsDataURL(file);
+				}
 			},
 		},
 	};

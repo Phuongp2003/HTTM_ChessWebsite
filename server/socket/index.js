@@ -45,11 +45,14 @@ function setupSocket() {
 
         // Tham gia trận đấu
         socket.on('join_game', async ({ gameId, playerId }) => {
+            if (!gameId) {
+                socket.emit('error', 'Need a room info!');
+                return;
+            }
             const match = await matches.getMatchById(gameId);
 
             if (!match) {
-                socket.emit('error', 'Game not found');
-                return;
+                
             }
 
             if (!match.player_b || match.player_a === match.player_b) {

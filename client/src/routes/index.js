@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { checkProtectedRoute } from '@/utils/auth.js'
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -58,7 +59,17 @@ const router = createRouter({
             };
         }
         return { top: 0 };
-    }
+    },
 })
+
+router.beforeEach(async (to, from, next) => {
+    const isProtected = await checkProtectedRoute('http://localhost:3000');
+
+    if (isProtected || to.path === '/login' || to.path === '/signup') {
+        next();
+    } else {
+        next({ name: 'login', query: { message: 'Hãy đăng nhập để sử dụng chức năng này!', target: to.path} });
+    }
+});
 
 export default router

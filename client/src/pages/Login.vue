@@ -76,11 +76,18 @@
 				inLoad: false,
 				message: '',
 				isVerified: false,
+				target: this.$route.query.target || '/',
 			};
 		},
 		setup() {
 			const cookies = useCookies();
 			return { cookies };
+		},
+		inject: ['isUserAuth', 'uid'],
+		mounted() {
+			if (this.$route.query.message) {
+				this.message = this.$route.query.message;
+			}
 		},
 		methods: {
 			async login(event) {
@@ -127,6 +134,8 @@
 							uid: decodedToken.uid,
 							username: decodedToken.username,
 						};
+						this.uid = user.uid;
+						this.isUserAuth = true;
 						this.cookies.set('user', JSON.stringify(user), {
 							path: '/',
 							expires: new Date(
@@ -146,6 +155,7 @@
 						console.log(
 							'Đăng nhập thành công và token đã được lưu trong cookies'
 						);
+						this.$router.push(this.target);
 					})
 					.catch((error) => {
 						// Handle any errors
