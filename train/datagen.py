@@ -18,7 +18,7 @@ def create_sample(fen):
     best_move = get_best_move(fen)
     score = get_score(fen)
     # Xác định intent dựa trên điểm số
-    intent = "tấn công" if score['value'] > 0 else "phòng thủ"
+    intent = "tấn công" if score['value'] > 0 else "phòng thủ" if score['value'] < 0 else "khác"
 
     # Tạo mẫu JSON
     sample = {
@@ -53,7 +53,7 @@ num_samples = 1000
 data = generate_samples(num_samples)
 
 # Lưu dữ liệu vào file JSON
-with open('chess_data.json', 'w', encoding='utf-8') as f:
+with open('chess_data2.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
 print(f"Generated {len(data)} samples")
