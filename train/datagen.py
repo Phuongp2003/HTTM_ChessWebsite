@@ -49,7 +49,7 @@ def generate_samples(num_samples):
     return data
 
 # Tạo dữ liệu và lưu vào file JSON
-num_samples = 1000
+num_samples = 7000
 data = generate_samples(num_samples)
 
 # Lưu dữ liệu vào file JSON
