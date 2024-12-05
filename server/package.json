@@ -5,14 +5,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "prisma:pull": "prisma db pull",
+    "prisma:generate": "prisma generate",
+    "prisma:start": "npm run prisma:pull && npm run prisma:generate"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@prisma/client": "^5.22.0",
+    "@prisma/client": "^6.0.1",
     "chess.js": "^1.0.0-beta.8",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
@@ -31,7 +34,7 @@
   "devDependencies": {
     "@types/module-alias": "^2.0.4",
     "module-alias": "^2.2.3",
-    "prisma": "^5.22.0"
+    "prisma": "^6.0.1"
   },
   "_moduleAliases": {
     "@": ".",

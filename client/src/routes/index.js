@@ -38,7 +38,7 @@ const router = createRouter({
         {
             path: '/training',
             name: 'training',
-            component: () => import('@/components/Chess/Index.vue')
+            component: () => import('@/components/Chess/Training.vue')
         },
         {
             path: '/learning',

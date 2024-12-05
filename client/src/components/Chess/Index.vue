@@ -7,15 +7,7 @@
 				{{ errorMessage }}
 			</p>
 		</div>
-		<label>
-			<input
-				type="checkbox"
-				v-model="useServer"
-				@change="handleUseServerChange" />
-			Use Server
-		</label>
-		<component
-			:is="useServer ? 'ChessBoard' : 'ChessBoardServerless'"
+		<ChessBoard
 			class="content-loaded"
 			v-if="currentPlayer" />
 		<div
@@ -50,7 +42,6 @@
 		},
 		data() {
 			return {
-				useServer: true,
 				errorMessage: '',
 				playerProfiles: {
 					player1: {
@@ -88,7 +79,6 @@
 					this.errorMessage = ''; // Clear any previous error messages
 				} catch (error) {
 					console.error('Server is not available:', error);
-					this.useServer = false;
 					this.errorMessage =
 						'Server is not available. Using serverless mode.';
 				}

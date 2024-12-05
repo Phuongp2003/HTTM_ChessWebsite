@@ -1,0 +1,19 @@
+{
+  "name": "ptd21-chess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd ./server && npm install && cd ../client && npm install",
+    "s:dev": "cd ./server && npm run dev",
+    "s:start": "cd ./server && npm start",
+    "c:dev": "cd ./client && npm run dev",
+    "c:build": "cd ./client && npm run build",
+    "c:preview": "cd ./client && vite preview --config vite.config.js",
+    "c:test:unit": "cd ./client && vitest --config vitest.config.js",
+    "dev": "concurrently -k \"npm run s:dev\" \"npm run c:dev\"",
+    "prisma:setup": "cd ./server && npm run prisma:start"
+  },
+  "dependencies": {
+    "ptd21-chess": "file:"
+  }
+}
