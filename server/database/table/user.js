@@ -33,10 +33,47 @@ async function setToken(username, rToken, days) {
     });
 }
 
+async function getUserByAccountId(accountId) {
+    return await prisma.user.findFirst({
+        where: {
+            account: {
+                some: {
+                    id: accountId,
+                },
+            },
+        },
+    });
+}
+
+
+async function updateUserByAccountId(accountId, data) {
+    const user = await getUserByAccountId(accountId);
+    if (!user) {
+        throw new Error('User not found');
+    }
+    return await prisma.user.update({
+        where: { uid: user.uid },
+        data,
+    });
+}
+
+async function deleteUserByAccountId(accountId) {
+    const user = await getUserByAccountId(accountId);
+    if (!user) {
+        throw new Error('User not found');
+    }
+    return await prisma.user.delete({
+        where: { uid: user.uid },
+    });
+}
+
 module.exports = {
     getUserById,
-    createUser,
     updateUser,
     deleteUser,
-    setToken
+    setToken,
+    getUserByAccountId,
+    createUser,
+    updateUserByAccountId,
+    deleteUserByAccountId,
 };

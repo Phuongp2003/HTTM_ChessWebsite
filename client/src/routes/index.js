@@ -48,7 +48,7 @@ const router = createRouter({
         {
             path: '/profile',
             name: 'profile',
-            component: () => import('@/components/Chess/Index.vue')
+            component: () => import('@/pages/Profile.vue')
         }
     ],
     scrollBehavior(to, from, savedPosition) {
