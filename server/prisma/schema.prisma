@@ -19,19 +19,22 @@ model account {
 }
 
 model matches {
-  game_id                         BigInt  @id
+  game_id                         BigInt    @id
   player_a                        Int?
   player_b                        Int?
-  current_turn                    String? @db.VarChar(10)
-  fen                             String? @db.Text
-  result                          String? @db.VarChar(255)
-  move_history                    String? @db.LongText
+  current_turn                    String?   @db.VarChar(10)
+  fen                             String?   @db.Text
+  result                          String?   @db.VarChar(255)
+  move_history                    String?   @db.LongText
   white_player                    Int?
-  player_a_time                   Int     @default(600)
-  player_b_time                   Int     @default(600)
-  user_matches_player_aTouser     user?   @relation("matches_player_aTouser", fields: [player_a], references: [uid], onDelete: Restrict, map: "matches_ibfk_1")
-  user_matches_player_bTouser     user?   @relation("matches_player_bTouser", fields: [player_b], references: [uid], onDelete: Restrict, map: "matches_ibfk_2")
-  user_matches_white_playerTouser user?   @relation("matches_white_playerTouser", fields: [white_player], references: [uid], onDelete: Restrict, map: "matches_ibfk_3")
+  player_a_time                   Int       @default(600)
+  player_b_time                   Int       @default(600)
+  date                            DateTime? @db.DateTime(0)
+  socket_a                        String?   @db.VarChar(36)
+  socket_b                        String?   @db.VarChar(36)
+  user_matches_player_aTouser     user?     @relation("matches_player_aTouser", fields: [player_a], references: [uid], onDelete: Restrict, map: "matches_ibfk_1")
+  user_matches_player_bTouser     user?     @relation("matches_player_bTouser", fields: [player_b], references: [uid], onDelete: Restrict, map: "matches_ibfk_2")
+  user_matches_white_playerTouser user?     @relation("matches_white_playerTouser", fields: [white_player], references: [uid], onDelete: Restrict, map: "matches_ibfk_3")
 
   @@index([player_a], map: "player_a")
   @@index([player_b], map: "player_b")

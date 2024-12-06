@@ -30,10 +30,10 @@
 </template>
 
 <script>
-	import { ChessBoard, ChessBoardServerless } from 'tsk-chess';
-	import axios from 'axios';
-	import { computed } from 'vue';
 	import 'tsk-chess/style';
+	import axios from 'axios';
+	import { ChessBoard, ChessBoardServerless } from 'tsk-chess';
+	import { computed } from 'vue';
 
 	export default {
 		components: {
@@ -116,13 +116,13 @@
 		font-size: 20px;
 	}
 	.error-message {
-		position: absolute;
-		top: 10px;
-		left: 50%;
-		transform: translateX(-50%);
-		width: max-content;
-		max-width: 100%;
 		background-color: rgba(0, 0, 0, 0.8);
 		border: red 2px solid;
+		left: 50%;
+		max-width: 100%;
+		position: absolute;
+		top: 10px;
+		transform: translateX(-50%);
+		width: max-content;
 	}
 </style>

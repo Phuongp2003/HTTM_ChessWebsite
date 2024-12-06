@@ -133,6 +133,12 @@
 							id: decodedToken.id,
 							uid: decodedToken.uid,
 							username: decodedToken.username,
+							firstName: decodedToken.firstName,
+							lastName: decodedToken.lastName,
+							nickname: decodedToken.nickname,
+							avatar: decodedToken.avatar,
+							elo: decodedToken.elo,
+							trainingStatus: decodedToken.trainingStatus,
 						};
 						this.uid = user.uid;
 						this.isUserAuth = true;

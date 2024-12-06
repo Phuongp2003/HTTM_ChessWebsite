@@ -65,7 +65,7 @@ const router = createRouter({
 router.beforeEach(async (to, from, next) => {
     const isProtected = await checkProtectedRoute('http://localhost:3000');
 
-    if (isProtected || to.path === '/login' || to.path === '/signup') {
+    if (isProtected || to.path === '/login' || to.path === '/signup' || to.path === '/') {
         next();
     } else {
         next({ name: 'login', query: { message: 'Hãy đăng nhập để sử dụng chức năng này!', target: to.path } });

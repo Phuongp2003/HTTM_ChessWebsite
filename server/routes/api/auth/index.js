@@ -62,9 +62,18 @@ router.post('/login', async (req, res) => {
 
         // Tạo JWT (access token)
         const ua = await accountdb.getAccountByUsername(username).then((account) => account);
-        
+        const user = await userdb.getUserById(ua.uid);
+
         const accessToken = jwt.sign(
-            { id: ua.id, uid:ua.uid, username },
+            {
+                id: ua.id, uid: ua.uid, username,
+                firstName: user.firstName,
+                lastName: user.lastName,
+                nickname: user.nickname,
+                avatar: user.avatar,
+                elo: user.elo,
+                trainingStatus: user.trainingStatus,
+            },
             process.env.SECRET_KEY,
             { algorithm: 'HS256', expiresIn: '1h' }
         );

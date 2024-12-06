@@ -1,4 +1,4 @@
-const { matches } = require('../database/index.js');
+const { matches } = require('@database');
 const { createServer } = require('http');
 const { Server } = require('socket.io');
 
@@ -38,6 +38,7 @@ function setupSocket() {
                 player_b: null,
                 current_turn: 'white',
                 move_history: JSON.stringify([]),
+                socket_a: socket.id
             });
             socket.join(gameId.toString());
             socket.emit('room_created', { gameId, playerId });
@@ -52,11 +53,11 @@ function setupSocket() {
             const match = await matches.getMatchById(gameId);
 
             if (!match) {
-                
+
             }
 
             if (!match.player_b || match.player_a === match.player_b) {
-                await matches.updateMatchPlayerB(gameId, playerId);
+                await matches.updateMatchPlayerB(gameId, playerId, socket.id);
             } else {
                 socket.emit('error', 'Game is full');
                 return;
@@ -73,7 +74,6 @@ function setupSocket() {
 
         // Chọn màu quân
         socket.on('choose_color', async ({ gameId, playerId, color }) => {
-            console.log("🚀 ~ socket.on ~ gameId, playerId, color:", gameId, playerId, color)
             const match = await matches.getMatchById(gameId);
 
             if (!match) {
@@ -129,12 +129,21 @@ function setupSocket() {
         socket.on('disconnect', async () => {
             console.log('User disconnected:', socket.id);
 
-            // const imatches = await matches.getMatchesByPlayer(socket.id);
+            const match = await matches.findMatchBySocketAndEmptyResult(socket.id);
 
-            // if (imatches.length > 0) {
-            //     const gameId = imatches[0].game_id;
-            //     io.to(gameId).emit('player_disconnected', { message: 'Player disconnected' });
-            // }
+            if (match) {
+                if (match.player_a === match.player_b) {
+                    await matches.deleteMatch(match.game_id);
+                    io.to(match.game_id.toString()).emit('game_ended', { winner: 'Match removed due to player disconnect' });
+                } else if (match.socket_a === socket.id && match.player_a === match.white_player
+                    || match.socket_b === socket.id && match.player_a !== match.white_player) {
+                    await matches.updateMatch(match.game_id, { result: 'TIMEUP_BLACK' });
+                    io.to(match.game_id.toString()).emit('game_ended', { winner: 'TIMEUP_BLACK' });
+                } else if (match.socket_b === socket.id && match.player_b === match.black_player) {
+                    await matches.updateMatch(match.game_id, { result: 'TIMEUP_WHITE' });
+                    io.to(match.game_id.toString()).emit('game_ended', { winner: 'TIMEUP_WHITE' });
+                }
+            }
         });
 
         socket.on('reconnect', async ({ gameId, playerId }) => {
@@ -150,4 +159,4 @@ function setupSocket() {
     });
 }
 
-module.exports = {  getIo: () => io , setupSocket,startSocket };
+module.exports = { getIo: () => io, setupSocket, startSocket };

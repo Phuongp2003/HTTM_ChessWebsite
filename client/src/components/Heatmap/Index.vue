@@ -1,3 +1,5 @@
+<!-- TODO This is base on current day, not current week, must make change! -->
+
 <script>
 	export default {
 		data() {
@@ -5,6 +7,9 @@
 				heatmapData: this.generateHeatmapData(),
 				rotatedHeatmapData: [],
 			};
+		},
+		props: {
+			matches: { type: Array, required: true },
 		},
 		methods: {
 			generateHeatmapData() {
@@ -38,6 +43,20 @@
 					}
 				}
 
+				this.matches.forEach((match) => {
+					const matchDate = new Date(
+						match.date.split('/').reverse().join('-')
+					);
+					matchDate.setDate(matchDate.getDate() - 1);
+					const matchDay = matchDate.getDay();
+					const matchWeek = Math.floor(
+						(currentDate.getDay() - 1 - matchDay) /
+							(7 * 24 * 60 * 60 * 1000)
+					);
+					if (matchWeek < 10) {
+						heatmapData[9 + matchWeek][matchDay].value += 1;
+					}
+				});
 				return heatmapData;
 			},
 			rotateHeatmapData(data) {
@@ -65,7 +84,6 @@
 			},
 		},
 		mounted() {
-			this.heatmapData[9][2].value = 4;
 			this.rotatedHeatmapData = this.rotateHeatmapData(this.heatmapData);
 		},
 	};

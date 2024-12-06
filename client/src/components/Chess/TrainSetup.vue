@@ -48,7 +48,7 @@
 		mounted() {
 			setTimeout(() => {
 				this.ready = true;
-			}, 2000);
+			}, 500);
 		},
 		methods: {
 			handleDragStart(piece) {
