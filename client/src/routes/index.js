@@ -43,7 +43,7 @@ const router = createRouter({
         {
             path: '/learning',
             name: 'learning',
-            component: () => import('@/components/Chess/Index.vue')
+            component: () => import('@/components/Chess/TrainSetup.vue')
         },
         {
             path: '/profile',
@@ -68,7 +68,7 @@ router.beforeEach(async (to, from, next) => {
     if (isProtected || to.path === '/login' || to.path === '/signup') {
         next();
     } else {
-        next({ name: 'login', query: { message: 'Hãy đăng nhập để sử dụng chức năng này!', target: to.path} });
+        next({ name: 'login', query: { message: 'Hãy đăng nhập để sử dụng chức năng này!', target: to.path } });
     }
 });
 

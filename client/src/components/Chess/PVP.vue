@@ -80,6 +80,9 @@
 			this.connectSocket();
 			this.pTitle = `Đánh cờ vua`;
 		},
+		beforeUnmount() {
+			this.disconnectSocket();
+		},
 		methods: {
 			async checkServer() {
 				try {

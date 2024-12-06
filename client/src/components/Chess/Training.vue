@@ -39,51 +39,67 @@
 <template>
 	<div id="app-content">
 		<div
-			v-if="errorMessage"
-			class="error-message">
-			<p class="error">{{ errorMessage }}</p>
+			class="setup-board"
+			v-if="!isReady">
+			<TrainSetup
+				@done-setup="
+					() => {
+						isReady = true;
+					}
+				" />
 		</div>
 		<div
-			class="main-chessboard-wrap d-flex flex-row"
-			v-if="currentPlayer">
-			<TrainBoard
-				ref="chessboardwrap"
-				@board-created="createdBoard"
-				:matchId="roomId"
-				:playerID="playerId"
-				:playerColor="currentPlayer"
-				:socket="socket" />
-			<GameControl
-				:boardAPI="boardAPI"
-				:trainingStart="trainingStart"
-				v-if="boardAPI && trainingMode" />
+			class="train-board"
+			v-if="isReady">
+			<div
+				v-if="errorMessage"
+				class="error-message">
+				<p class="error">{{ errorMessage }}</p>
+			</div>
+			<div
+				class="main-chessboard-wrap d-flex flex-row"
+				v-if="currentPlayer">
+				<TrainBoard
+					ref="chessboardwrap"
+					@board-created="createdBoard"
+					:matchId="roomId"
+					:playerID="playerId"
+					:playerColor="currentPlayer"
+					:socket="socket" />
+				<GameControl
+					:boardAPI="boardAPI"
+					:trainingStart="trainingStart"
+					v-if="boardAPI && trainingMode" />
+			</div>
+			<div
+				class="choose-player"
+				v-if="!currentPlayer">
+				<label for="player-select">Choose Player:</label>
+				<select
+					id="player-select"
+					v-model="currentPlayer">
+					<option
+						disabled
+						value="">
+						Please select one
+					</option>
+					<option value="white">White</option>
+					<option value="black">Black</option>
+				</select>
+			</div>
+			<div class="connection-status">
+				Socket Status: {{ socketStatus }}
+			</div>
 		</div>
-
-		<div
-			class="choose-player"
-			v-if="!currentPlayer">
-			<label for="player-select">Choose Player:</label>
-			<select
-				id="player-select"
-				v-model="currentPlayer">
-				<option
-					disabled
-					value="">
-					Please select one
-				</option>
-				<option value="white">White</option>
-				<option value="black">Black</option>
-			</select>
-		</div>
-		<div class="connection-status">Socket Status: {{ socketStatus }}</div>
 	</div>
 </template>
 
 <script>
 	import { TrainBoard, GameControl } from 'tsk-chess';
+	import TrainSetup from './TrainSetup.vue';
 	import axios from 'axios';
 	import { useCookies } from '@vueuse/integrations/useCookies';
-	import { computed, ref } from 'vue';
+	import { computed, ref, provide } from 'vue';
 	import io from 'socket.io-client';
 	import 'tsk-chess/style';
 
@@ -91,6 +107,7 @@
 		components: {
 			GameControl,
 			TrainBoard,
+			TrainSetup,
 		},
 		data() {
 			return {
@@ -114,13 +131,14 @@
 				socket: null,
 				socketStatus: 'Disconnected',
 				boardAPI: null,
-				startupFen: null,
-				// 'r2qkb1r/ppp2ppp/2n2n2/3pp3/4P1B1/3P1P1N/PPP3PP/RNB1K2R b KQkq - 0 7',
+				isReady: false,
 			};
 		},
 		setup() {
 			const cookies = useCookies();
-			return { cookies };
+			let startupFen = ref('');
+			provide('startupFen', startupFen);
+			return { cookies, startupFen };
 		},
 		watch: {
 			errorMessage(newValue) {
@@ -134,6 +152,9 @@
 		mounted() {
 			this.connectSocket();
 			this.checkServer();
+		},
+		beforeUnmount() {
+			this.disconnectSocket();
 		},
 		methods: {
 			createdBoard(boardApi) {
@@ -275,7 +296,6 @@
 				matchId: computed(() => this.roomId),
 				playerColor: computed(() => this.currentPlayer),
 				errorMessage: ref(() => this.errorMessage),
-				startupFen: ref(this.startupFen),
 			};
 		},
 	};

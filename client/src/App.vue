@@ -140,7 +140,7 @@
 </template>
 
 <script>
-	import { ref, onMounted, onBeforeUnmount } from 'vue';
+	import { ref, onMounted, onBeforeUnmount, provide } from 'vue';
 	import Navbar from '@/components/Navbar.vue';
 	import Footer from '@/components/Footer.vue';
 
