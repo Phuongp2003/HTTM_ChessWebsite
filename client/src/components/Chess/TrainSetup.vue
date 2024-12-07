@@ -106,6 +106,7 @@
 	<div class="input-fen flex flex-row w-full justify-evenly">
 		<div class="board">
 			<TheChessboard
+				class="board shadow-md drop-shadow-sm shadow-slate-500"
 				v-if="ready"
 				:board-config="boardConfig"
 				@drop="handleDrop"
@@ -126,10 +127,15 @@
 			</cg-board>
 		</div>
 		<div class="config w-[500px] flex flex-col justify-between items-start">
-			<div class="w-full top">
+			<div
+				class="w-full top shadow-md drop-shadow-sm shadow-slate-500 p-10">
+				<h2>
+					Điều chỉnh mã FEN bằng cách kéo thả bàn cờ bên cạnh, hoặc
+					nhập thủ công bằng ô ở dưới
+				</h2>
 				<label
 					for="fen"
-					class="block text-sm font-medium text-gray-700"
+					class="block text-sm font-medium text-gray-700 mt-3"
 					>FEN:</label
 				>
 				<input
@@ -138,29 +144,37 @@
 					v-model="fen"
 					@input="updateNextTurn"
 					class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
-				<button
-					@click="changeFEN"
-					class="mt-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-					Change FEN
-				</button>
+
 				<button
 					@click="this.fen = this.boardConfig.fen"
 					class="mt-2 ml-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-					Get FEN
+					Nhận FEN hiện tại
 				</button>
 				<label
 					for="nextTurn"
 					class="block text-sm font-medium text-gray-700 mt-4"
-					>Next Turn:</label
+					>Người chơi lượt tiếp theo:</label
 				>
 				<select
 					id="nextTurn"
 					v-model="nextTurn"
 					@change="updateFEN"
 					class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
-					<option value="w">White</option>
-					<option value="b">Black</option>
+					<option value="w">Quân trắng</option>
+					<option value="b">Quân đen</option>
 				</select>
+				<button
+					@click="changeFEN"
+					:disabled="boardConfig.fen === fen"
+					class="mt-2 mb-2 ml-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 disabled:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+					Thay đổi FEN
+				</button>
+				<h2>
+					Nếu nhập thủ công bằng bộ cài bên này, bạn cần nhấn
+					<span class="text-red-500 font-bold">Thay đổi FEN</span>
+					trước khi bắt đầu
+				</h2>
+
 				<!-- <label
 					for="pgn"
 					class="block text-sm font-medium text-gray-700 mt-4"
@@ -171,11 +185,11 @@
 					v-model="pgn"
 					class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea> -->
 			</div>
-			<div class="w-full bottom">
+			<div class="w-full bottom pl-10">
 				<button
 					@click="confirmFen"
 					class="mt-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-					Let's play!
+					Bắt đầu luyện tập
 				</button>
 			</div>
 		</div>

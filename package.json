@@ -5,6 +5,7 @@
   "scripts": {
     "install": "cd ./server && npm install && cd ../client && npm install",
     "s:dev": "cd ./server && npm run dev",
+    "ai:start": "cd ./train && py server.py",
     "s:start": "cd ./server && npm start",
     "c:dev": "cd ./client && npm run dev",
     "c:build": "cd ./client && npm run build",

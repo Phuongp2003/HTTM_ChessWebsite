@@ -12,3 +12,24 @@
 .chessboard-overlay .text .message {
 	@apply text-white;
 }
+
+/* Width of the scrollbar */
+.scroll-bar-c::-webkit-scrollbar {
+	width: 3px;
+	padding-left: 7px;
+}
+
+/* Track of the scrollbar */
+.scroll-bar-c::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle of the scrollbar */
+.scroll-bar-c::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+.scroll-bar-c::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

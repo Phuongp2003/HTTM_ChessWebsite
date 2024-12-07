@@ -84,7 +84,7 @@
 				const dayOfWeek = now.getDay();
 				const startOfWeek = new Date(now);
 				startOfWeek.setDate(
-					now.getDate() - dayOfWeek + (dayOfWeek === 0 ? -6 : 1)
+					now.getDate() - dayOfWeek + (dayOfWeek === 0 ? -6 : 1) - 1
 				); // Adjust to Monday
 
 				const matchesThisWeek = this.matches.filter((match) => {

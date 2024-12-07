@@ -3,8 +3,10 @@ from stockfish_lib.stockfish_lib import set_fen_position, get_best_move, get_bes
 from chess_intent_lib import predict_intent
 import chess
 import chess.engine
+from flask_cors import CORS
 
 app = Flask(__name__)
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 @app.route('/check', methods=['POST'])
 def check():
@@ -21,18 +23,19 @@ def check():
     set_elo(adjusted_elo)
     set_fen_position(fen)
     
-    # Use python-chess to make the move and get the new FEN
-    board = chess.Board(fen)
-    board.push_uci(move)
-    new_fen = board.fen()
+    # Extract the move in UCI format and the new FEN after the move
+    move_uci = move['lan']
+    new_fen = move['after']
     
-    intent = predict_intent([f"{fen} {move}"])[0]
+    intent = predict_intent([f"{fen} {move_uci}"])[0]
 
     set_fen_position(new_fen)
     top_moves = get_best_moves(new_fen, 5)
     risks = []
     for top_move in top_moves:
-        risk_fen = f"{new_fen} {top_move['Move']}"
+        board = chess.Board(new_fen)
+        board.push_uci(top_move['Move'])
+        risk_fen = board.fen()
         risk_intent = predict_intent([risk_fen])[0]
         risks.append({'move': top_move['Move'], 'intent': risk_intent, 'fen': risk_fen})
 
@@ -63,11 +66,19 @@ def ghelp():
 
     results = []
     for m in selected_moves:
-        new_fen = f"{fen} {m['move']}"
+        board = chess.Board(fen)
+        board.push_uci(m['move'])
+        new_fen = board.fen()
         set_fen_position(new_fen)
         risk_moves = get_best_moves(new_fen, 3)
-        risks = [{'move': risk_move['Move'], 'intent': predict_intent([f"{new_fen} {risk_move['Move']}"])[0]} for risk_move in risk_moves]
-        results.append({'move': m['move'], 'intent': m['intent'], 'risks': risks})
+        risks = []
+        for risk_move in risk_moves:
+            risk_board = chess.Board(new_fen)
+            risk_board.push_uci(risk_move['Move'])
+            risk_fen = risk_board.fen()
+            risk_intent = predict_intent([risk_fen])[0]
+            risks.append({'move': risk_move['Move'], 'intent': risk_intent, 'fen': risk_fen})
+        results.append({'move': m['move'], 'intent': m['intent'], 'risks': risks, 'fen': new_fen})
 
     score = (len(correct_moves) / len(top_moves)) * 100
     return jsonify({'score': score, 'moves': results})

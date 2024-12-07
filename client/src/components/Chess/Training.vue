@@ -30,65 +30,91 @@
 	}
 
 	.main-chessboard-wrap {
-		width: max-content;
 		margin: 0 auto;
 		gap: 20px;
+	}
+	.control-demo > *:not(.sect) {
+		display: none;
 	}
 </style>
 
 <template>
 	<div id="app-content">
-		<div
-			class="setup-board"
-			v-if="!isReady">
-			<TrainSetup
-				@done-setup="
-					() => {
-						isReady = true;
-					}
-				" />
+		<div v-if="showTrainShow">
+			<TrainShow
+				:close="closeTrainShow"
+				:sFen="boardAPI.getFen()"
+				:orientation="currentPlayer" />
 		</div>
-		<div
-			class="train-board"
-			v-if="isReady">
+		<div v-else>
 			<div
-				v-if="errorMessage"
-				class="error-message">
-				<p class="error">{{ errorMessage }}</p>
+				class="setup-board"
+				v-if="!isReady">
+				<TrainSetup
+					@done-setup="
+						() => {
+							isReady = true;
+						}
+					" />
 			</div>
 			<div
-				class="main-chessboard-wrap d-flex flex-row"
-				v-if="currentPlayer">
-				<TrainBoard
-					ref="chessboardwrap"
-					@board-created="createdBoard"
-					:matchId="roomId"
-					:playerID="playerId"
-					:playerColor="currentPlayer"
-					:socket="socket" />
-				<GameControl
-					:boardAPI="boardAPI"
-					:trainingStart="trainingStart"
-					v-if="boardAPI && trainingMode" />
-			</div>
-			<div
-				class="choose-player"
-				v-if="!currentPlayer">
-				<label for="player-select">Choose Player:</label>
-				<select
-					id="player-select"
-					v-model="currentPlayer">
-					<option
-						disabled
-						value="">
-						Please select one
-					</option>
-					<option value="white">White</option>
-					<option value="black">Black</option>
-				</select>
-			</div>
-			<div class="connection-status">
-				Socket Status: {{ socketStatus }}
+				class="train-board"
+				v-if="isReady">
+				<div
+					v-if="errorMessage"
+					class="error-message">
+					<p class="error">{{ errorMessage }}</p>
+				</div>
+				<keep-alive>
+					<div
+						class="main-chessboard-wrap d-flex flex-row justify-evenly w-full"
+						v-if="currentPlayer">
+						<TrainBoard
+							ref="chessboardwrap"
+							@board-created="createdBoard"
+							:matchId="roomId"
+							:playerID="playerId"
+							:playerColor="currentPlayer"
+							:socket="socket" />
+						<div class="control w-[500px] px-2 py-3">
+							<GameControl
+								:boardAPI="boardAPI"
+								:trainingStart="trainingStart"
+								v-if="boardAPI && trainingMode" />
+							<button
+								@click="startTraining"
+								class="mt-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+								Phân tích thế cờ
+							</button>
+						</div>
+					</div>
+				</keep-alive>
+				<div
+					class="choose-player w-full h-full flex justify-center items-center"
+					v-if="!currentPlayer">
+					<div class="wrap w-[400px] p-4 flex flex-col">
+						<label
+							for="player-select"
+							class="w-full px-1 py-1 text-2xl font-bold mb-2"
+							>Chọn lượt chơi:</label
+						>
+						<select
+							id="player-select"
+							class="w-full px-1 py-1 border-2 border-solid border-green-600"
+							v-model="currentPlayer">
+							<option
+								disabled
+								value="">
+								Hãy chọn màu dưới đây
+							</option>
+							<option value="white">Quân trắng</option>
+							<option value="black">Quân đen</option>
+						</select>
+					</div>
+				</div>
+				<div class="connection-status">
+					Socket Status: {{ socketStatus }}
+				</div>
 			</div>
 		</div>
 	</div>
@@ -97,6 +123,7 @@
 <script>
 	import { TrainBoard, GameControl } from 'tsk-chess';
 	import TrainSetup from './TrainSetup.vue';
+	import TrainShow from './TrainShow.vue';
 	import axios from 'axios';
 	import { useCookies } from '@vueuse/integrations/useCookies';
 	import { computed, ref, provide } from 'vue';
@@ -108,6 +135,7 @@
 			GameControl,
 			TrainBoard,
 			TrainSetup,
+			TrainShow,
 		},
 		data() {
 			return {
@@ -119,10 +147,6 @@
 						name: 'Demo Player',
 						avatar: '/favicon.ico',
 					},
-					player2: {
-						name: 'BOT Stockfish Dept 3',
-						avatar: '/images/stockfish-logo.png',
-					},
 				},
 				currentPlayer: null,
 				roomId: '',
@@ -132,6 +156,8 @@
 				socketStatus: 'Disconnected',
 				boardAPI: null,
 				isReady: false,
+				showTrainShow: false,
+				bkFen: null,
 			};
 		},
 		setup() {
@@ -149,9 +175,9 @@
 				}
 			},
 		},
-		mounted() {
+		async mounted() {
 			this.connectSocket();
-			this.checkServer();
+			await this.checkServer();
 		},
 		beforeUnmount() {
 			this.disconnectSocket();
@@ -187,6 +213,7 @@
 					this.errorMessage = ''; // Clear error message when switching to serverless mode
 				}
 			},
+
 			connectSocket() {
 				this.socket = io('http://localhost:3000', {
 					transports: ['websocket'],
@@ -278,6 +305,8 @@
 							to: bestMove.slice(2, 4),
 						});
 					}
+					this.$refs.chessboardwrap.inTimePause = false;
+					this.$refs.chessboardwrap.isFirstMoveDone = true;
 					this.errorMessage = '';
 				} catch (error) {
 					console.error('Server is not available:', error);
@@ -286,10 +315,22 @@
 						'Server is not available. Using serverless mode.';
 				}
 			},
+			closeTrainShow() {
+				this.showTrainShow = false;
+			},
+			startTraining() {
+				this.showTrainShow = true;
+			},
 		},
 		provide() {
 			return {
-				playerProfiles: computed(() => this.playerProfiles),
+				playerProfiles: computed(() => ({
+					...this.playerProfiles,
+					player2: {
+						name: 'BOT PDT',
+						avatar: '/imgs/p2.jpg',
+					},
+				})),
 				isetupPlayer: computed(() => this.currentPlayer),
 				iPlayWithBot: true,
 				iTrainingMode: computed(() => this.trainingMode),

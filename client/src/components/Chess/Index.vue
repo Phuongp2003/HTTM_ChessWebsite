@@ -102,7 +102,13 @@
 		},
 		provide() {
 			return {
-				playerProfiles: computed(() => this.playerProfiles),
+				playerProfiles: computed(() => ({
+					...this.playerProfiles,
+					player2: {
+						name: 'BOT PDT',
+						avatar: '/imgs/p2.jpg',
+					},
+				})),
 				baseUrl: window.location.origin,
 				isetupPlayer: computed(() => this.currentPlayer),
 				iPlayWithBot: true,
