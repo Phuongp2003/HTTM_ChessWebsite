@@ -22,45 +22,6 @@
 				<p><strong>NickName:</strong> {{ user.nickname || 'Chưa có thông tin' }}</p>
 				<p><strong>Elo:</strong> {{ user.elo || 'Chưa có thông tin' }}</p>
 			</div>
-
-			<!-- Form chỉnh sửa tên và mật khẩu -->
-			<div class="profile-edit">
-				
-				<form @submit.prevent="updateUserInfo">
-					<!-- Nút đổi mật khẩu -->
-					<div class="form-group">
-						<button type="button" @click="toggleChangePassword" class="btn-change-password">
-							{{ changePassword ? 'Hủy đổi mật khẩu' : 'Đổi mật khẩu' }}
-						</button>
-					</div>
-
-					<!-- Nhập mật khẩu mới khi người dùng chọn đổi mật khẩu -->
-					<div v-if="changePassword">
-						<div class="form-group">
-							<label for="edit-password">Mật khẩu mới:</label>
-							<input
-								type="password"
-								id="edit-password"
-								v-model="newPassword"
-								placeholder="Nhập mật khẩu mới"
-							/>
-						</div>
-
-						<div class="form-group">
-							<label for="edit-confirm-password">Xác nhận mật khẩu:</label>
-							<input
-								type="password"
-								id="edit-confirm-password"
-								v-model="confirmPassword"
-								placeholder="Xác nhận mật khẩu mới"
-							/>
-						</div>
-					</div>
-
-					<!-- Nút cập nhật chỉ được phép nhấn khi tất cả thông tin hợp lệ -->
-					<button type="submit" :disabled="!isFormValid" class="btn-update">Cập nhật</button>
-				</form>
-			</div>
 		</div>
 
 		<!-- Nếu chưa có dữ liệu người dùng, hiển thị thông báo -->
