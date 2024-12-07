@@ -8,6 +8,7 @@
 			</p>
 		</div>
 		<ChessBoard
+			ref="cbPP"
 			class="content-loaded"
 			v-if="currentPlayer" />
 		<div

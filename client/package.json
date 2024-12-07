@@ -19,7 +19,7 @@
     "marked": "^14.1.2",
     "ptd21-web": "file:",
     "sass": "^1.77.8",
-    "tsk-chess": "^0.8.10",
+    "tsk-chess": "^0.9.4",
     "tsk-web": "file:",
     "universal-cookie": "^7.2.2",
     "vue": "lastest",

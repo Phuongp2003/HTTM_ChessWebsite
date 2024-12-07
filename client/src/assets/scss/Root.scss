@@ -5,3 +5,10 @@
 .button {
 	@apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
 }
+
+.chessboard-overlay {
+	@apply p-8;
+}
+.chessboard-overlay .text .message {
+	@apply text-white;
+}
