@@ -1,35 +1,68 @@
 <template>
-	<div class="profile-container">
-		<h1 class="profile-title">Trang cá nhân</h1>
-
-		<!-- Hiển thị thông tin người dùng nếu có -->
-		<div v-if="user" class="profile-card">
-			<!-- Hiển thị và chọn avatar -->
-			<div class="profile-avatar">
-				<img :src="previewAvatar || user.avatar || defaultAvatar" alt="Avatar" class="avatar-image" />
-				<label for="avatar-upload" class="avatar-upload-label">Thay đổi Avatar</label>
+	<form
+		v-if="user"
+		@submit.prevent="submitChange"
+		class="profile-card">
+		<div class="profile-avatar form-group">
+			<img
+				:src="nUser.avatar || user.avatar"
+				alt="Avatar"
+				class="avatar-image" />
+			<label
+				for="avatar-upload"
+				class="avatar-upload-label">
+				Thay đổi Avatar
+			</label>
+			<input
+				type="file"
+				class="form-control w-full p-2 mb-6 text-indigo-700 border-b-2 border-indigo-500 outline-none focus:bg-gray-300"
+				id="avatar-upload"
+				@change="previewAvatar"
+				accept="image/*"
+				style="display: none" />
+		</div>
+		<div class="profile-details">
+			<p>
+				<strong>Họ và tên:</strong>
+			</p>
+			<div class="form-group">
+				<label for="lastName">Họ:</label>
 				<input
-					type="file"
-					id="avatar-upload"
-					@change="previewAvatarChange"
-					class="avatar-upload-input"
-				/>
+					type="text"
+					id="lastName"
+					v-model="nUser.lastName"
+					placeholder="Nhập họ của bạn" />
 			</div>
-
-			<!-- Thông tin người dùng -->
-			<div class="profile-details">
-				<p><strong>Họ và tên:</strong> {{ (user.firstName && user.lastName) ? user.lastName + ' ' + user.firstName : 'Chưa có thông tin' }}</p>
-				<p><strong>NickName:</strong> {{ user.nickname || 'Chưa có thông tin' }}</p>
-				<p><strong>Elo:</strong> {{ user.elo || 'Chưa có thông tin' }}</p>
+			<div class="form-group">
+				<label for="firstName">Tên:</label>
+				<input
+					type="text"
+					id="firstName"
+					v-model="nUser.firstName"
+					placeholder="Nhập tên của bạn" />
 			</div>
+			<div class="form-group">
+				<label for="nickname">
+					<p>
+						<strong>NickName:</strong>
+					</p>
+				</label>
+				<input
+					type="text"
+					id="nickname"
+					v-model="nUser.nickname"
+					placeholder="Biệt danh" />
+			</div>
+			<p><strong>Elo:</strong> {{ user.elo }}</p>
 		</div>
-
-		<!-- Nếu chưa có dữ liệu người dùng, hiển thị thông báo -->
-		<div v-else>
-			<p>Đang tải thông tin người dùng...</p>
-		</div>
-	</div>
+		<button
+			type="submit"
+			class="button">
+			Cập nhật thông tin người dùng
+		</button>
+	</form>
 </template>
+
 <script>
 	import { useCookies } from '@vueuse/integrations/useCookies';
 	import axios from 'axios';
@@ -37,96 +70,91 @@
 	export default {
 		data() {
 			return {
-				user: null, // Chưa có thông tin người dùng ban đầu
-				newPassword: '', // Mật khẩu mới
-				confirmPassword: '', // Xác nhận mật khẩu
-				changePassword: false, // Biến kiểm tra người dùng có chọn đổi mật khẩu không
-				previewAvatar: null, // Biến lưu ảnh đại diện đã chọn (chưa upload)
-				defaultAvatar: 'default-avatar.png', // Đường dẫn ảnh đại diện mặc định
+				user: null, // Current user data
+				nUser: {}, // New user data
+				avatar: null, // Avatar file
+				message: '',
+				inLoad: false,
 			};
 		},
-		computed: {
-			// Kiểm tra xem form có hợp lệ không (khi đổi mật khẩu)
-			isFormValid() {
-				const isPasswordValid = !this.changePassword || (this.newPassword && this.newPassword === this.confirmPassword);
-				return isPasswordValid && this.user.firstName;
-			},
-		},
 		methods: {
-			// Lấy dữ liệu người dùng từ API
-			async fetchUserdata() {
-				const userCookie = this.cookies.get('user');
-				if (!userCookie || !userCookie.id) {
-					console.error('Không tìm thấy thông tin người dùng trong cookie.');
-					return;
-				}
-				try {
-					// Gọi API để lấy thông tin người dùng
-					const response = await axios.get(`http://localhost:3000/api/user/${userCookie.id}`);
-					this.user = response.data; // Cập nhật thông tin người dùng
-				} catch (error) {
-					console.error('Lỗi khi lấy dữ liệu người dùng:', error);
-				}
-			},
-
-			// Hàm cập nhật ảnh đại diện khi chọn ảnh
-			previewAvatarChange(event) {
+			previewAvatar(event) {
 				const file = event.target.files[0];
 				if (file) {
+					this.avatar = file;
 					const reader = new FileReader();
-					reader.onloadend = () => {
-						this.previewAvatar = reader.result; // Lưu ảnh đại diện đã chọn
+					reader.onload = (e) => {
+						this.nUser.avatar = e.target.result;
 					};
-					reader.readAsDataURL(file); // Đọc ảnh dưới dạng base64
+					reader.readAsDataURL(file);
 				}
 			},
-
-			// Hàm upload ảnh đại diện
-			uploadAvatar() {
-				if (this.previewAvatar) {
+			async submitChange() {
+				// Compare nUser and user to find changes
+				// Handle avatar upload if it has changed
+				let avatarUrl = '';
+				if (this.avatar) {
 					const formData = new FormData();
-					formData.append('avatar', this.previewAvatar);
-					axios.post(`http://localhost:3000/api/upload-avatar`, formData)
-						.then((response) => {
-							this.user.avatar = response.data.avatar; // Cập nhật ảnh đại diện mới
-						})
-						.catch((error) => {
-							console.error('Lỗi khi tải ảnh lên:', error);
-						});
+					formData.append('file', this.avatar);
+					formData.append('upload_preset', 'upload_f');
+					formData.append(
+						'asset_folder',
+						process.env.VITE_CLOUDINARY_FOLDER
+					);
+
+					try {
+						const response = await axios.post(
+							`https://api.cloudinary.com/v1_1/${
+								import.meta.env.VITE_CLOUDINARY_NAME
+							}/image/upload?upload_preset=upload_f`,
+							formData
+						);
+						avatarUrl = response.data.secure_url;
+						this.nUser.avatar = avatarUrl;
+					} catch (error) {
+						console.error('🚀 ~ submitChange ~ error:', error);
+						this.message = 'Failed to upload avatar';
+						this.inLoad = false;
+						return;
+					}
 				}
-			},
-
-			// Hàm cập nhật thông tin người dùng
-			async updateUserInfo() {
-				// Kiểm tra mật khẩu mới và xác nhận mật khẩu có giống nhau không
-				if (this.changePassword && this.newPassword !== this.confirmPassword) {
-					alert('Mật khẩu mới và xác nhận mật khẩu không khớp!');
-					return;
+				let changes = {};
+				for (const key in this.nUser) {
+					console.log(key);
+					if (this.nUser[key] !== this.user[key]) {
+						changes = { ...changes, [key]: this.nUser[key] };
+					}
 				}
-
-				const userData = {
-					firstName: this.user.firstName,
-					lastName: this.user.lastName,
-					password: this.changePassword ? this.newPassword : '', // Mật khẩu mới
-				};
-
 				try {
-					// Cập nhật thông tin người dùng (bao gồm tên và mật khẩu)
-					await axios.put(`http://localhost:3000/api/user/${this.user.id}`, userData);
-					alert('Thông tin đã được cập nhật!');
-					this.fetchUserdata(); // Lấy lại thông tin người dùng sau khi cập nhật
+					this.inLoad = true;
+					await axios
+						.put(
+							`http://localhost:3000/api/user/${this.user.uid}`,
+							changes
+						)
+						.then((res) => {
+							this.cookies.remove('accessToken');
+							this.cookies.remove('user');
+							this.cookies.remove('refreshToken');
+							window.location.href = '/login';
+						});
+					this.message = 'User information updated successfully';
+					this.inLoad = false;
 				} catch (error) {
-					console.error('Lỗi khi cập nhật thông tin:', error);
+					this.message = 'Failed to update user information';
+					this.inLoad = false;
 				}
-			},
-
-			// Toggle việc thay đổi mật khẩu
-			toggleChangePassword() {
-				this.changePassword = !this.changePassword;
 			},
 		},
 		async mounted() {
-			await this.fetchUserdata(); // Lấy dữ liệu người dùng khi component được tải
+			// Fetch user data and initialize nUser
+			try {
+				this.user = this.cookies.get('user');
+				this.nUser = { ...this.user };
+			} catch (error) {
+				console.error('🚀 ~ mounted ~ error:', error);
+				this.message = 'Failed to load user information';
+			}
 		},
 		setup() {
 			const cookies = useCookies();
@@ -159,31 +187,31 @@
 	}
 
 	.profile-avatar {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Căn giữa theo chiều ngang */
-  justify-content: center; /* Căn giữa theo chiều dọc */
-  margin-bottom: 20px;
-}
+		display: flex;
+		flex-direction: column;
+		align-items: center; /* Căn giữa theo chiều ngang */
+		justify-content: center; /* Căn giữa theo chiều dọc */
+		margin-bottom: 20px;
+	}
 
-.avatar-image {
-  width: 120px; /* Kích thước avatar lớn hơn */
-  height: 120px; /* Kích thước avatar lớn hơn */
-  border-radius: 50%; /* Đảm bảo ảnh vuông với góc bo tròn */
-  object-fit: cover; /* Giữ tỷ lệ khung hình của ảnh */
-}
+	.avatar-image {
+		width: 120px; /* Kích thước avatar lớn hơn */
+		height: 120px; /* Kích thước avatar lớn hơn */
+		border-radius: 50%; /* Đảm bảo ảnh vuông với góc bo tròn */
+		object-fit: cover; /* Giữ tỷ lệ khung hình của ảnh */
+	}
 
-.avatar-upload-label {
-  margin-top: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  color: #007bff;
-  text-decoration: underline;
-}
+	.avatar-upload-label {
+		margin-top: 10px;
+		cursor: pointer;
+		font-size: 16px;
+		color: #007bff;
+		text-decoration: underline;
+	}
 
-.avatar-upload-input {
-  display: none; /* Ẩn input file */
-}
+	.avatar-upload-input {
+		display: none; /* Ẩn input file */
+	}
 
 	.profile-details {
 		font-size: 1.1rem;

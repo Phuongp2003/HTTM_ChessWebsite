@@ -75,6 +75,7 @@
 							:matchId="roomId"
 							:playerID="playerId"
 							:playerColor="currentPlayer"
+							:elo="sElo"
 							:socket="socket" />
 						<div class="control w-[500px] px-2 py-3">
 							<GameControl
@@ -94,13 +95,25 @@
 					v-if="!currentPlayer">
 					<div class="wrap w-[400px] p-4 flex flex-col">
 						<label
+							for="elo-select"
+							class="w-full px-1 py-1 text-2xl font-bold mb-2"
+							>Chọn độ khó bot (yêu cầu > 0):</label
+						>
+						<input
+							type="number"
+							class="w-full px-1 py-1 border-2 border-solid border-green-600 mt-2"
+							v-model="sElo"
+							placeholder="Nhập độ khó bot (Elo) (yêu cầu > 0)" />
+						<label
 							for="player-select"
 							class="w-full px-1 py-1 text-2xl font-bold mb-2"
+							v-if="sElo > 0"
 							>Chọn lượt chơi:</label
 						>
 						<select
 							id="player-select"
 							class="w-full px-1 py-1 border-2 border-solid border-green-600"
+							v-if="sElo > 0"
 							v-model="currentPlayer">
 							<option
 								disabled
@@ -146,8 +159,10 @@
 					player1: {
 						name: 'Demo Player',
 						avatar: '/favicon.ico',
+						elo: 0,
 					},
 				},
+				sElo: 0,
 				currentPlayer: null,
 				roomId: '',
 				playerId: this.cookies.get('user').uid,
@@ -178,6 +193,8 @@
 		async mounted() {
 			this.connectSocket();
 			await this.checkServer();
+			this.playerProfiles.player1 = this.cookies.get('user');
+			this.sElo = this.userProfile.player1.elo;
 		},
 		beforeUnmount() {
 			this.disconnectSocket();
@@ -294,8 +311,9 @@
 								this.currentPlayer === 'white'
 									? 'black'
 									: 'white',
-							elo: 10,
-							coachEloMultiple: 1.2,
+							elo: this.sElo || 100,
+							coachEloMultiple:
+								this.sElo !== this.user?.elo ? 1 : 1.2,
 						}
 					);
 					const bestMove = response.data.bestMove;

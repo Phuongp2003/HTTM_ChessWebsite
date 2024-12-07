@@ -48,7 +48,23 @@ const router = createRouter({
         {
             path: '/profile',
             name: 'profile',
-            component: () => import('@/pages/Profile.vue')
+            children: [
+                {
+                    path: '',
+                    name: 'userProfile',
+                    component: () => import('@/pages/Profile.vue')
+                },
+                {
+                    path: ':uid',
+                    name: 'aUserProfile',
+                    component: () => import('@/pages/Profile.vue')
+                },
+                {
+                    path: 'update',
+                    name: 'editUserProfile',
+                    component: () => import('@/pages/ProfileEdit.vue')
+                }
+            ]
         }
     ],
     scrollBehavior(to, from, savedPosition) {
