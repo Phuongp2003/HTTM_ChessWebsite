@@ -13,8 +13,17 @@ if not os.path.exists(stockfish_path):
 # Khởi tạo Stockfish
 stockfish = Stockfish(stockfish_path)
 
+def set_elo(elo):
+    """Thiết lập ELO trong Stockfish"""
+    global stockfish
+    stockfish.update_engine_parameters({
+        'UCI_LimitStrength': True,
+        'UCI_Elo': elo
+    })
+
 def set_fen_position(fen):
     """Thiết lập vị trí FEN trong Stockfish"""
+    global stockfish
     stockfish.set_fen_position(fen)
 
 def get_best_move(fen):
@@ -43,6 +52,7 @@ def get_best_move(fen):
 
 def get_best_moves(fen, count=5):
     """Lấy danh sách nước đi tốt nhất từ Stockfish"""
+    global stockfish
     try:
         set_fen_position(fen)
         return stockfish.get_top_moves(count)
