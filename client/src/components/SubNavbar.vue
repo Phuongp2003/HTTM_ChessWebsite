@@ -31,9 +31,10 @@
 				class="hidden peer" />
 			<div
 				class="cursor-pointer select-none rounded-full border-2 border-red-950 border-solid overflow-hidden mr-4 aspect-square h-[100%]">
+				<!-- Sử dụng ảnh đại diện từ cookie nếu có, nếu không có sẽ dùng ảnh mặc định -->
 				<img
-					src="/imgs/p1.jpg"
-					alt=""
+					:src="user && user.avatar ? user.avatar : '/imgs/p1.jpg'"
+					alt="Avatar"
 					class="w-[100%]" />
 			</div>
 			<div
@@ -41,24 +42,14 @@
 				<div
 					class="user-menu flex flex-col justify-center items-start gap-1">
 					<RouterLink
-						to="/"
+						to="/profile"
 						class="um-item w-full bg-slate-200"
-						>Link</RouterLink
+						>Profile</RouterLink
 					>
 					<RouterLink
-						to="/"
+						to="/login"
 						class="um-item w-full bg-slate-200"
-						>Link</RouterLink
-					>
-					<RouterLink
-						to="/"
-						class="um-item w-full bg-slate-200"
-						>Link</RouterLink
-					>
-					<RouterLink
-						to="/"
-						class="um-item w-full bg-slate-200"
-						>Link</RouterLink
+						>Đăng xuất</RouterLink
 					>
 				</div>
 			</div>
@@ -67,12 +58,24 @@
 </template>
 
 <script>
-	export default {
-		inject: ['pTitle'],
-		props: {
-			toggleNavbar: { type: Function, required: true },
-		},
-	};
+import { useCookies } from '@vueuse/integrations/useCookies';
+
+export default {
+	inject: ['pTitle'],
+	props: {
+		toggleNavbar: { type: Function, required: true },
+	},
+	data() {
+		return {
+			user: null, // Lưu thông tin người dùng
+		};
+	},
+	mounted() {
+		// Lấy thông tin người dùng từ cookie
+		const cookies = useCookies();
+		this.user = cookies.get('user'); // Giả sử thông tin người dùng lưu trong cookie có tên 'user'
+	},
+};
 </script>
 
 <style></style>
